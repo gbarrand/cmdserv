@@ -119,6 +119,7 @@ if [ "${use_Wt}" = "yes" ] ; then G4_cppflags=""; fi
 if [ "${use_SOPHYA}" = "yes" ] ; then G4_cppflags=""; fi
 if [ "${use_graphviz}" = "yes" ] ; then G4_cppflags=""; fi
 if [ "${use_Python}" = "yes" ] ; then G4_cppflags=""; fi
+if [ "${use_tntnet}" = "yes" ] ; then G4_cppflags=""; fi
 if [ "${use_CoinGL}" = "yes" ] ; then
   # With -pedantic and coin3d/3.1.3 we have the error :
   #   HEPVis/source/SoSFPolyhedron.cxx:7: error: extra ~;~
@@ -252,6 +253,7 @@ if [ ${build_use_shlib} = yes ] ; then use_archive=no;fi
 . ${exlib_mgr}/use_SOPHYA
 . ${exlib_mgr}/use_cfitsio
 . ${exlib_mgr}/use_hdf5
+. ${exlib_mgr}/use_tntnet
 
 . ${exlib_mgr}/use_zip
 . ${exlib_mgr}/use_png
@@ -269,7 +271,6 @@ if [ ${build_use_shlib} = yes ] ; then use_archive=no;fi
 . ${exlib_mgr}/use_cern_root # :-(
 . ${exlib_mgr}/use_geant4
 . ${exlib_mgr}/use_pythia8
-. ${exlib_mgr}/use_tntnet
 . ${exlib_mgr}/use_Getline
 . ${exlib_mgr}/use_Python
 . ${exlib_mgr}/use_bpy

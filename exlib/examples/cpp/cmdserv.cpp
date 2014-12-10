@@ -70,7 +70,7 @@ public:
     inlib::mem::increment(s_class().c_str());
 #endif
   }
-  base_cmd& operator=(const base_cmd& a_from){return *this;}
+  base_cmd& operator=(const base_cmd&){return *this;}
 };
 
 class session {
