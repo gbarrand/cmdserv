@@ -1,7 +1,7 @@
 
  To build :
    cd ./exlib/examples/cpp
-   ./build cmdserv.cpp
+   ./build -v cmdserv.cpp
    ./build term2serv.cpp
 
  To run :
