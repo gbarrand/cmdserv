@@ -270,7 +270,7 @@ if [ ${build_use_shlib} = yes ] ; then use_archive=no;fi
 . ${exlib_mgr}/use_geant4
 . ${exlib_mgr}/use_pythia8
 . ${exlib_mgr}/use_tntnet
-. ${exlib_mgr}/use_GetLine
+. ${exlib_mgr}/use_Getline
 . ${exlib_mgr}/use_Python
 . ${exlib_mgr}/use_bpy
 . ${exlib_mgr}/use_lua
