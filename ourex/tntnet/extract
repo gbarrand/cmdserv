@@ -1,0 +1,103 @@
+#!/bin/sh -f
+
+save_dir=`pwd`
+
+inlib_mgr=../../inlib/mgr
+
+inlib_incs=./inlib_incs
+#c++ -o ${inlib_incs} -I${inlib_mgr}/.. ${inlib_mgr}/../apps/incs.cpp
+#exit
+
+tntnet_home=../../ourex_zips/tntnet-2.2rc3
+cxxtools_home=../../ourex_zips/cxxtools-2.2rc4
+
+#verbose=-verbose
+
+find ./tntnet -name '*.h' -exec /bin/rm -f {} \;
+find ./tntnet -name '*.cpp' -exec /bin/rm -f {} \;
+
+find ./cxxtools -name '*.h' -exec /bin/rm -f {} \;
+find ./cxxtools -name '*.cpp' -exec /bin/rm -f {} \;
+find ./cxxtools -name '*.tpp' -exec /bin/rm -f {} \;
+
+#exit
+#set -x
+
+echo "////////////////////////"
+echo "/// cxxtools ///////////"
+echo "////////////////////////"
+
+to=${save_dir}/cxxtools/src
+/bin/mkdir -p ${to}
+cd ${cxxtools_home}/src
+
+dirs="."
+dirs="${dirs}:../include"
+
+find . -maxdepth 1 -name '*.cpp' -print -exec _incs ${verbose} -pack -dirs=${dirs} -to=${to} {} \;
+find ./xml -maxdepth 1 -name '*.cpp' -print -exec _incs ${verbose} -pack -dirs=${dirs} -to=${to} {} \;
+find ./posix -maxdepth 1 -name '*.cpp' -print -exec _incs ${verbose} -pack -dirs=${dirs} -to=${to} {} \;
+
+# md5.c :
+find . -maxdepth 1 -name '*.c' -print -exec _incs ${verbose} -pack -dirs=${dirs} -to=${to} {} \;
+
+cd ${save_dir}
+dirs=
+
+#exit
+
+echo "////////////////////////"
+echo "/// tntnet/framework ///"
+echo "////////////////////////"
+
+to=${save_dir}/tntnet/framework/common
+/bin/mkdir -p ${to}
+cd ${tntnet_home}/framework/common
+
+#dirs="./common"
+dirs="."
+dirs="${dirs}:../../../cxxtools-2.2rc4/include"
+
+find . -name '*.cpp' -print -exec _incs ${verbose} -pack -dirs=${dirs} -to=${to} {} \;
+
+cd ${save_dir}
+dirs=
+#exit
+
+find ./cxxtools-2.2rc4/include/cxxtools -maxdepth 1 -name '*' -type f -exec /bin/cp {} ./cxxtools/include/cxxtools/. \;
+find ./cxxtools-2.2rc4/include/cxxtools -maxdepth 1 -name '*' -type d -exec /bin/cp -R {} ./cxxtools/include/cxxtools/. \;
+
+#/////////////////////////////////////////////////////////////////////
+#/////////////////////////////////////////////////////////////////////
+#/////////////////////////////////////////////////////////////////////
+/bin/rm -f ${inlib_incs}
+/bin/rm -R -f ./cxxtools-2.2rc4
+#/////////////////////////////////////////////////////////////////////
+#/////////////////////////////////////////////////////////////////////
+#/////////////////////////////////////////////////////////////////////
+
+/bin/cp ./modified/tntnet/config.h ./tntnet/framework/common/.
+
+/bin/cp ./modified/cxxtools/inc_config.h ./cxxtools/include/cxxtools/config.h
+/bin/cp ./modified/cxxtools/src_config.h ./cxxtools/src/config.h
+
+# convert exists both in cxxtools and tntnet :
+/bin/mv ./tntnet/framework/common/convert.cpp ./tntnet/framework/common/tnt_convert.cpp 
+
+# enforce use ourex/zip :
+/bin/rm -f ./tntnet/framework/common/unzip.h
+/bin/cp ./modified/tntnet/unzipfile.cpp ./tntnet/framework/common/.
+
+# enforce use ourex/zlib :
+/bin/cp ./modified/tntnet/httpreply.cpp ./tntnet/framework/common/.
+/bin/cp ./modified/tntnet/ioapi.h ./tntnet/framework/common/.
+/bin/cp ./modified/tntnet/zdata.cpp ./tntnet/framework/common/.
+/bin/cp ./modified/tntnet/deflatestream.h ./tntnet/framework/common/tnt/.
+
+#
+/bin/cp ./modified/cxxtools/char.h ./cxxtools/include/cxxtools/.
+/bin/cp ./modified/tntnet/util.h ./tntnet/framework/common/tnt/.
+
+
+exit
+

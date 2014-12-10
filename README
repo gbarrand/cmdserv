@@ -1,0 +1,31 @@
+
+ To build :
+   cd ./exlib/examples/cpp
+   ./build cmdserv.cpp
+   ./build term2serv.cpp
+
+ To run :
+   ./bin_[gnu,clang]/cmdserv -verbose
+ example :
+   ./bin_[gnu,clang]/cmdserv -host=0.0.0.0 -port=8080
+
+ from another terminal :
+   ./bin_[gnu,clang]/term2serv -host=<ip of the cmdserv machine> -port=<port id>
+   2cmdserv> help
+   2cmdserv> ls
+   2cmdserv> exit
+ example :
+   ./bin_[gnu,clang]/term2serv -host=0.0.0.0 -port=8080
+
+ From a web browser with cmdserv running on the <ip> machine looking at the <port> port number :
+   http://<ip>:<port>/?cmd=help
+ example :
+   http://0.0.0.0:8080/?cmd=help
+ other commands : 
+   http://<ip>:<port>/?cmd=ls      //list files of the home directory on the <ip> machine.
+   http://<ip>:<port>/?cmd=lsd     //list directories of the home directory on the <ip> machine.
+   http://<ip>:<port>/?cmd=lsf     //list only regular files of the home directory on the <ip> machine.
+   http://<ip>:<port>/?cmd=size+<file name>
+   http://<ip>:<port>/hello.html
+   http://<ip>:<port>/form.html
+    For the form, an uploaded file is put under /tmp/exlib_cmdserv_<filename>
