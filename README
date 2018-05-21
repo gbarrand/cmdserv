@@ -1,6 +1,6 @@
 
  To build :
-   cd ./exlib/examples/cpp
+   cd ./inexlib/exlib/examples/cpp
    ./build -v cmdserv.cpp
    ./build term2serv.cpp
 
