@@ -1,0 +1,141 @@
+#!/bin/sh -f
+
+bush_home=../../../bush
+
+. ${bush_home}/args
+
+. ${bush_home}/ourex_header
+
+#///////////////////////////////////////////////////////
+#///////////////////////////////////////////////////////
+#///////////////////////////////////////////////////////
+use_zip=yes
+use_zlib=yes
+. ${bush_home}/use/zip
+. ${bush_home}/use/zlib
+
+#///////////////////////////////////////////////////////
+#///////////////////////////////////////////////////////
+#///////////////////////////////////////////////////////
+if [ ${build_compile} = "yes" ] ; then
+
+build_diro=yes  # because of messageheader.cpp found in cxxtools and tntnet.
+
+cppflags="${cppflags} -DHAVE_CONFIG_H"
+
+if [ ${build_clang} = "yes" -o ${build_sdk_mac} = "yes" -o ${build_sdk_ios} = "yes" ] ; then
+  # for warning in cxxtools/src/semaphoreimpl.cpp about sem_* deprecated.
+  cppflags="${cppflags} -Wno-deprecated-declarations"
+fi
+
+if [ ${build_gnu} = "yes" ] ; then
+  # for warning in cxxtools/src/tcpsocket.cpp about std::auto_ptr deprecated.
+  cppflags="${cppflags} -Wno-deprecated-declarations"
+fi
+
+if [ `uname` = "Linux" ] ; then
+  cppflags="${cppflags} -Wno-unused-result"
+fi
+
+#///////////////////////////////////////////////////////
+#/// cxxtools : ////////////////////////////////////////
+#///////////////////////////////////////////////////////
+
+old_cppflags="${cppflags}"
+cppflags="${cppflags} -I./cxxtools/src -I./cxxtools/include"
+
+dirs=""
+dirs="${dirs} ./cxxtools/src"
+for dir in ${dirs} ; do
+  find ${dir} -name '*.cpp' -print >> cpp_tmp
+done
+for dir in ${dirs} ; do
+  find ${dir} -name '*.c' -print >> c_tmp
+done
+
+exclude=
+exclude="${exclude} atomicity facets.cpp iconvstream.cpp"
+for exc in ${exclude} ; do
+  grep -v ${exc} cpp_tmp > tmp_0;/bin/mv tmp_0 cpp_tmp
+done
+
+if [ "`uname | grep CYGWIN`" != "" ] ; then
+  cppfiles="${cppfiles} ./cxxtools/src/atomicity.windows.cpp"
+elif [ `uname` = Darwin ] ; then
+  #processor=`${bush_home}/processor "${cpp_compiler}"`
+  #if [ `uname -m` = i386 ] ; then
+  #  WARNING : wall machines pass here but are x86_64 !
+  #  cppfiles="${cppfiles} ./cxxtools/src/atomicity.gcc.x86.cpp"
+  #else
+     cppfiles="${cppfiles} ./cxxtools/src/atomicity.gcc.x86_64.cpp"
+  #fi
+elif [ `uname -m` = x86_64 ] ; then
+  cppfiles="${cppfiles} ./cxxtools/src/atomicity.gcc.x86_64.cpp"
+else
+  cppfiles="${cppfiles} ./cxxtools/src/atomicity.gcc.x86.cpp"
+fi
+
+#/bin/rm -f cc_tmp
+#/bin/rm -f cpp_tmp
+#cppfiles="./cxxtools/src/settingswriter.cpp"
+
+if [ "`uname | grep CYGWIN`" != "" ] ; then
+  echo "cxxtools : Windows not yet supported."
+  /bin/rm -f c_tmp
+  /bin/rm -f cpp_tmp
+cat <<END >> cxxtools_dummy.cpp
+void cxxtools_dummy() {}
+END
+  cppfiles=./cxxtools_dummy.cpp
+fi
+
+. ${bush_home}/compile
+
+cppflags="${old_cppflags}"
+cppfiles=
+
+#///////////////////////////////////////////////////////
+#/// tntnet : //////////////////////////////////////////
+#///////////////////////////////////////////////////////
+
+cppflags="${cppflags} -I./tntnet/framework/common"
+cppflags="${cppflags} -I./cxxtools/include"
+
+dirs=""
+dirs="${dirs} ./tntnet/framework"
+for dir in ${dirs} ; do
+  find ${dir} -name '*.cpp' -print >> cpp_tmp
+done
+
+exclude=
+exclude="${exclude} gnutls.cpp http.cpp openssl.cpp"
+
+for exc in ${exclude} ; do
+  grep -v ${exc} cpp_tmp > tmp_0;/bin/mv tmp_0 cpp_tmp
+done
+
+if [ "`uname | grep CYGWIN`" != "" ] ; then
+  echo "tntnet : Windows not yet supported."
+  /bin/rm -f cpp_tmp
+cat <<END >> tntnet_dummy.cpp
+void tntnet_dummy() {}
+END
+  cppfiles=./tntnet_dummy.cpp
+fi
+
+. ${bush_home}/compile
+
+if [ "`uname | grep CYGWIN`" != "" ] ; then
+  /bin/rm -f ./cxxtools_dummy.cpp
+  /bin/rm -f ./tntnet_dummy.cpp
+fi
+
+#///////////////////////////////////////////////////////
+#///////////////////////////////////////////////////////
+#///////////////////////////////////////////////////////
+
+fi # end build_compile
+ 
+if [ ${build_archive} = "yes" ] ; then . ${bush_home}/archive; fi
+
+. ${bush_home}/clean

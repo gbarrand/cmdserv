@@ -1,0 +1,47 @@
+// Copyright (C) 2010, Guy Barrand. All rights reserved.
+// See the file inlib.license for terms.
+
+#ifndef inlib_cmd_base_cmd
+#define inlib_cmd_base_cmd
+
+#ifdef INLIB_MEM
+#include "../mem"
+#endif
+
+#include "../S_STRING"
+
+#include <vector>
+#include <ostream>
+
+namespace inlib {namespace cmd {class session;}}
+
+namespace inlib {
+namespace cmd {
+
+class base_cmd {
+  INLIB_SCLASS(inlib::cmd::base_cmd)
+public:
+  virtual void exec(session&,const std::vector<std::string>&,std::ostream&,std::ostream&) = 0;
+public:
+  base_cmd(){
+#ifdef INLIB_MEM
+    mem::increment(s_class().c_str());
+#endif
+  }
+  virtual ~base_cmd(){
+#ifdef INLIB_MEM
+    mem::decrement(s_class().c_str());
+#endif
+  }
+public:
+  base_cmd(const base_cmd&){
+#ifdef INLIB_MEM
+    mem::increment(s_class().c_str());
+#endif
+  }
+  base_cmd& operator=(const base_cmd&){return *this;}
+};
+
+}}
+
+#endif

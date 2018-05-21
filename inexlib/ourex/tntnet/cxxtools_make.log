@@ -1,0 +1,955 @@
+Making all in src
+make  all-am
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT addrinfo.lo -MD -MP -MF .deps/addrinfo.Tpo -c -o addrinfo.lo addrinfo.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT addrinfo.lo -MD -MP -MF .deps/addrinfo.Tpo -c addrinfo.cpp  -fno-common -DPIC -o .libs/addrinfo.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT addrinfo.lo -MD -MP -MF .deps/addrinfo.Tpo -c addrinfo.cpp -o addrinfo.o >/dev/null 2>&1
+mv -f .deps/addrinfo.Tpo .deps/addrinfo.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT addrinfoimpl.lo -MD -MP -MF .deps/addrinfoimpl.Tpo -c -o addrinfoimpl.lo addrinfoimpl.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT addrinfoimpl.lo -MD -MP -MF .deps/addrinfoimpl.Tpo -c addrinfoimpl.cpp  -fno-common -DPIC -o .libs/addrinfoimpl.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT addrinfoimpl.lo -MD -MP -MF .deps/addrinfoimpl.Tpo -c addrinfoimpl.cpp -o addrinfoimpl.o >/dev/null 2>&1
+mv -f .deps/addrinfoimpl.Tpo .deps/addrinfoimpl.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT application.lo -MD -MP -MF .deps/application.Tpo -c -o application.lo application.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT application.lo -MD -MP -MF .deps/application.Tpo -c application.cpp  -fno-common -DPIC -o .libs/application.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT application.lo -MD -MP -MF .deps/application.Tpo -c application.cpp -o application.o >/dev/null 2>&1
+mv -f .deps/application.Tpo .deps/application.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT applicationimpl.lo -MD -MP -MF .deps/applicationimpl.Tpo -c -o applicationimpl.lo applicationimpl.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT applicationimpl.lo -MD -MP -MF .deps/applicationimpl.Tpo -c applicationimpl.cpp  -fno-common -DPIC -o .libs/applicationimpl.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT applicationimpl.lo -MD -MP -MF .deps/applicationimpl.Tpo -c applicationimpl.cpp -o applicationimpl.o >/dev/null 2>&1
+mv -f .deps/applicationimpl.Tpo .deps/applicationimpl.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT base64codec.lo -MD -MP -MF .deps/base64codec.Tpo -c -o base64codec.lo base64codec.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT base64codec.lo -MD -MP -MF .deps/base64codec.Tpo -c base64codec.cpp  -fno-common -DPIC -o .libs/base64codec.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT base64codec.lo -MD -MP -MF .deps/base64codec.Tpo -c base64codec.cpp -o base64codec.o >/dev/null 2>&1
+mv -f .deps/base64codec.Tpo .deps/base64codec.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT csvdeserializer.lo -MD -MP -MF .deps/csvdeserializer.Tpo -c -o csvdeserializer.lo csvdeserializer.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT csvdeserializer.lo -MD -MP -MF .deps/csvdeserializer.Tpo -c csvdeserializer.cpp  -fno-common -DPIC -o .libs/csvdeserializer.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT csvdeserializer.lo -MD -MP -MF .deps/csvdeserializer.Tpo -c csvdeserializer.cpp -o csvdeserializer.o >/dev/null 2>&1
+mv -f .deps/csvdeserializer.Tpo .deps/csvdeserializer.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT csvformatter.lo -MD -MP -MF .deps/csvformatter.Tpo -c -o csvformatter.lo csvformatter.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT csvformatter.lo -MD -MP -MF .deps/csvformatter.Tpo -c csvformatter.cpp  -fno-common -DPIC -o .libs/csvformatter.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT csvformatter.lo -MD -MP -MF .deps/csvformatter.Tpo -c csvformatter.cpp -o csvformatter.o >/dev/null 2>&1
+mv -f .deps/csvformatter.Tpo .deps/csvformatter.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT csvparser.lo -MD -MP -MF .deps/csvparser.Tpo -c -o csvparser.lo csvparser.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT csvparser.lo -MD -MP -MF .deps/csvparser.Tpo -c csvparser.cpp  -fno-common -DPIC -o .libs/csvparser.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT csvparser.lo -MD -MP -MF .deps/csvparser.Tpo -c csvparser.cpp -o csvparser.o >/dev/null 2>&1
+mv -f .deps/csvparser.Tpo .deps/csvparser.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT char.lo -MD -MP -MF .deps/char.Tpo -c -o char.lo char.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT char.lo -MD -MP -MF .deps/char.Tpo -c char.cpp  -fno-common -DPIC -o .libs/char.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT char.lo -MD -MP -MF .deps/char.Tpo -c char.cpp -o char.o >/dev/null 2>&1
+mv -f .deps/char.Tpo .deps/char.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT clock.lo -MD -MP -MF .deps/clock.Tpo -c -o clock.lo clock.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT clock.lo -MD -MP -MF .deps/clock.Tpo -c clock.cpp  -fno-common -DPIC -o .libs/clock.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT clock.lo -MD -MP -MF .deps/clock.Tpo -c clock.cpp -o clock.o >/dev/null 2>&1
+mv -f .deps/clock.Tpo .deps/clock.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT clockimpl.lo -MD -MP -MF .deps/clockimpl.Tpo -c -o clockimpl.lo clockimpl.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT clockimpl.lo -MD -MP -MF .deps/clockimpl.Tpo -c clockimpl.cpp  -fno-common -DPIC -o .libs/clockimpl.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT clockimpl.lo -MD -MP -MF .deps/clockimpl.Tpo -c clockimpl.cpp -o clockimpl.o >/dev/null 2>&1
+mv -f .deps/clockimpl.Tpo .deps/clockimpl.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT condition.lo -MD -MP -MF .deps/condition.Tpo -c -o condition.lo condition.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT condition.lo -MD -MP -MF .deps/condition.Tpo -c condition.cpp  -fno-common -DPIC -o .libs/condition.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT condition.lo -MD -MP -MF .deps/condition.Tpo -c condition.cpp -o condition.o >/dev/null 2>&1
+mv -f .deps/condition.Tpo .deps/condition.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT conditionimpl.lo -MD -MP -MF .deps/conditionimpl.Tpo -c -o conditionimpl.lo conditionimpl.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT conditionimpl.lo -MD -MP -MF .deps/conditionimpl.Tpo -c conditionimpl.cpp  -fno-common -DPIC -o .libs/conditionimpl.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT conditionimpl.lo -MD -MP -MF .deps/conditionimpl.Tpo -c conditionimpl.cpp -o conditionimpl.o >/dev/null 2>&1
+mv -f .deps/conditionimpl.Tpo .deps/conditionimpl.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT connectable.lo -MD -MP -MF .deps/connectable.Tpo -c -o connectable.lo connectable.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT connectable.lo -MD -MP -MF .deps/connectable.Tpo -c connectable.cpp  -fno-common -DPIC -o .libs/connectable.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT connectable.lo -MD -MP -MF .deps/connectable.Tpo -c connectable.cpp -o connectable.o >/dev/null 2>&1
+mv -f .deps/connectable.Tpo .deps/connectable.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT connection.lo -MD -MP -MF .deps/connection.Tpo -c -o connection.lo connection.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT connection.lo -MD -MP -MF .deps/connection.Tpo -c connection.cpp  -fno-common -DPIC -o .libs/connection.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT connection.lo -MD -MP -MF .deps/connection.Tpo -c connection.cpp -o connection.o >/dev/null 2>&1
+mv -f .deps/connection.Tpo .deps/connection.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT cgi.lo -MD -MP -MF .deps/cgi.Tpo -c -o cgi.lo cgi.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT cgi.lo -MD -MP -MF .deps/cgi.Tpo -c cgi.cpp  -fno-common -DPIC -o .libs/cgi.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT cgi.lo -MD -MP -MF .deps/cgi.Tpo -c cgi.cpp -o cgi.o >/dev/null 2>&1
+mv -f .deps/cgi.Tpo .deps/cgi.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT conversionerror.lo -MD -MP -MF .deps/conversionerror.Tpo -c -o conversionerror.lo conversionerror.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT conversionerror.lo -MD -MP -MF .deps/conversionerror.Tpo -c conversionerror.cpp  -fno-common -DPIC -o .libs/conversionerror.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT conversionerror.lo -MD -MP -MF .deps/conversionerror.Tpo -c conversionerror.cpp -o conversionerror.o >/dev/null 2>&1
+mv -f .deps/conversionerror.Tpo .deps/conversionerror.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT convert.lo -MD -MP -MF .deps/convert.Tpo -c -o convert.lo convert.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT convert.lo -MD -MP -MF .deps/convert.Tpo -c convert.cpp  -fno-common -DPIC -o .libs/convert.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT convert.lo -MD -MP -MF .deps/convert.Tpo -c convert.cpp -o convert.o >/dev/null 2>&1
+mv -f .deps/convert.Tpo .deps/convert.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT date.lo -MD -MP -MF .deps/date.Tpo -c -o date.lo date.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT date.lo -MD -MP -MF .deps/date.Tpo -c date.cpp  -fno-common -DPIC -o .libs/date.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT date.lo -MD -MP -MF .deps/date.Tpo -c date.cpp -o date.o >/dev/null 2>&1
+mv -f .deps/date.Tpo .deps/date.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT datetime.lo -MD -MP -MF .deps/datetime.Tpo -c -o datetime.lo datetime.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT datetime.lo -MD -MP -MF .deps/datetime.Tpo -c datetime.cpp  -fno-common -DPIC -o .libs/datetime.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT datetime.lo -MD -MP -MF .deps/datetime.Tpo -c datetime.cpp -o datetime.o >/dev/null 2>&1
+mv -f .deps/datetime.Tpo .deps/datetime.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT decomposer.lo -MD -MP -MF .deps/decomposer.Tpo -c -o decomposer.lo decomposer.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT decomposer.lo -MD -MP -MF .deps/decomposer.Tpo -c decomposer.cpp  -fno-common -DPIC -o .libs/decomposer.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT decomposer.lo -MD -MP -MF .deps/decomposer.Tpo -c decomposer.cpp -o decomposer.o >/dev/null 2>&1
+mv -f .deps/decomposer.Tpo .deps/decomposer.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT deserializer.lo -MD -MP -MF .deps/deserializer.Tpo -c -o deserializer.lo deserializer.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT deserializer.lo -MD -MP -MF .deps/deserializer.Tpo -c deserializer.cpp  -fno-common -DPIC -o .libs/deserializer.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT deserializer.lo -MD -MP -MF .deps/deserializer.Tpo -c deserializer.cpp -o deserializer.o >/dev/null 2>&1
+mv -f .deps/deserializer.Tpo .deps/deserializer.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT directory.lo -MD -MP -MF .deps/directory.Tpo -c -o directory.lo directory.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT directory.lo -MD -MP -MF .deps/directory.Tpo -c directory.cpp  -fno-common -DPIC -o .libs/directory.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT directory.lo -MD -MP -MF .deps/directory.Tpo -c directory.cpp -o directory.o >/dev/null 2>&1
+mv -f .deps/directory.Tpo .deps/directory.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT directoryimpl.lo -MD -MP -MF .deps/directoryimpl.Tpo -c -o directoryimpl.lo directoryimpl.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT directoryimpl.lo -MD -MP -MF .deps/directoryimpl.Tpo -c directoryimpl.cpp  -fno-common -DPIC -o .libs/directoryimpl.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT directoryimpl.lo -MD -MP -MF .deps/directoryimpl.Tpo -c directoryimpl.cpp -o directoryimpl.o >/dev/null 2>&1
+mv -f .deps/directoryimpl.Tpo .deps/directoryimpl.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT error.lo -MD -MP -MF .deps/error.Tpo -c -o error.lo error.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT error.lo -MD -MP -MF .deps/error.Tpo -c error.cpp  -fno-common -DPIC -o .libs/error.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT error.lo -MD -MP -MF .deps/error.Tpo -c error.cpp -o error.o >/dev/null 2>&1
+mv -f .deps/error.Tpo .deps/error.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT eventloop.lo -MD -MP -MF .deps/eventloop.Tpo -c -o eventloop.lo eventloop.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT eventloop.lo -MD -MP -MF .deps/eventloop.Tpo -c eventloop.cpp  -fno-common -DPIC -o .libs/eventloop.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT eventloop.lo -MD -MP -MF .deps/eventloop.Tpo -c eventloop.cpp -o eventloop.o >/dev/null 2>&1
+mv -f .deps/eventloop.Tpo .deps/eventloop.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT eventsink.lo -MD -MP -MF .deps/eventsink.Tpo -c -o eventsink.lo eventsink.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT eventsink.lo -MD -MP -MF .deps/eventsink.Tpo -c eventsink.cpp  -fno-common -DPIC -o .libs/eventsink.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT eventsink.lo -MD -MP -MF .deps/eventsink.Tpo -c eventsink.cpp -o eventsink.o >/dev/null 2>&1
+mv -f .deps/eventsink.Tpo .deps/eventsink.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT eventsource.lo -MD -MP -MF .deps/eventsource.Tpo -c -o eventsource.lo eventsource.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT eventsource.lo -MD -MP -MF .deps/eventsource.Tpo -c eventsource.cpp  -fno-common -DPIC -o .libs/eventsource.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT eventsource.lo -MD -MP -MF .deps/eventsource.Tpo -c eventsource.cpp -o eventsource.o >/dev/null 2>&1
+mv -f .deps/eventsource.Tpo .deps/eventsource.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT fdstream.lo -MD -MP -MF .deps/fdstream.Tpo -c -o fdstream.lo fdstream.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT fdstream.lo -MD -MP -MF .deps/fdstream.Tpo -c fdstream.cpp  -fno-common -DPIC -o .libs/fdstream.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT fdstream.lo -MD -MP -MF .deps/fdstream.Tpo -c fdstream.cpp -o fdstream.o >/dev/null 2>&1
+mv -f .deps/fdstream.Tpo .deps/fdstream.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT file.lo -MD -MP -MF .deps/file.Tpo -c -o file.lo file.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT file.lo -MD -MP -MF .deps/file.Tpo -c file.cpp  -fno-common -DPIC -o .libs/file.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT file.lo -MD -MP -MF .deps/file.Tpo -c file.cpp -o file.o >/dev/null 2>&1
+mv -f .deps/file.Tpo .deps/file.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT filedevice.lo -MD -MP -MF .deps/filedevice.Tpo -c -o filedevice.lo filedevice.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT filedevice.lo -MD -MP -MF .deps/filedevice.Tpo -c filedevice.cpp  -fno-common -DPIC -o .libs/filedevice.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT filedevice.lo -MD -MP -MF .deps/filedevice.Tpo -c filedevice.cpp -o filedevice.o >/dev/null 2>&1
+mv -f .deps/filedevice.Tpo .deps/filedevice.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT filedeviceimpl.lo -MD -MP -MF .deps/filedeviceimpl.Tpo -c -o filedeviceimpl.lo filedeviceimpl.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT filedeviceimpl.lo -MD -MP -MF .deps/filedeviceimpl.Tpo -c filedeviceimpl.cpp  -fno-common -DPIC -o .libs/filedeviceimpl.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT filedeviceimpl.lo -MD -MP -MF .deps/filedeviceimpl.Tpo -c filedeviceimpl.cpp -o filedeviceimpl.o >/dev/null 2>&1
+mv -f .deps/filedeviceimpl.Tpo .deps/filedeviceimpl.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT fileimpl.lo -MD -MP -MF .deps/fileimpl.Tpo -c -o fileimpl.lo fileimpl.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT fileimpl.lo -MD -MP -MF .deps/fileimpl.Tpo -c fileimpl.cpp  -fno-common -DPIC -o .libs/fileimpl.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT fileimpl.lo -MD -MP -MF .deps/fileimpl.Tpo -c fileimpl.cpp -o fileimpl.o >/dev/null 2>&1
+mv -f .deps/fileimpl.Tpo .deps/fileimpl.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT fileinfo.lo -MD -MP -MF .deps/fileinfo.Tpo -c -o fileinfo.lo fileinfo.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT fileinfo.lo -MD -MP -MF .deps/fileinfo.Tpo -c fileinfo.cpp  -fno-common -DPIC -o .libs/fileinfo.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT fileinfo.lo -MD -MP -MF .deps/fileinfo.Tpo -c fileinfo.cpp -o fileinfo.o >/dev/null 2>&1
+mv -f .deps/fileinfo.Tpo .deps/fileinfo.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT formatter.lo -MD -MP -MF .deps/formatter.Tpo -c -o formatter.lo formatter.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT formatter.lo -MD -MP -MF .deps/formatter.Tpo -c formatter.cpp  -fno-common -DPIC -o .libs/formatter.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT formatter.lo -MD -MP -MF .deps/formatter.Tpo -c formatter.cpp -o formatter.o >/dev/null 2>&1
+mv -f .deps/formatter.Tpo .deps/formatter.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT hdstream.lo -MD -MP -MF .deps/hdstream.Tpo -c -o hdstream.lo hdstream.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT hdstream.lo -MD -MP -MF .deps/hdstream.Tpo -c hdstream.cpp  -fno-common -DPIC -o .libs/hdstream.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT hdstream.lo -MD -MP -MF .deps/hdstream.Tpo -c hdstream.cpp -o hdstream.o >/dev/null 2>&1
+mv -f .deps/hdstream.Tpo .deps/hdstream.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT inifile.lo -MD -MP -MF .deps/inifile.Tpo -c -o inifile.lo inifile.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT inifile.lo -MD -MP -MF .deps/inifile.Tpo -c inifile.cpp  -fno-common -DPIC -o .libs/inifile.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT inifile.lo -MD -MP -MF .deps/inifile.Tpo -c inifile.cpp -o inifile.o >/dev/null 2>&1
+mv -f .deps/inifile.Tpo .deps/inifile.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT iniparser.lo -MD -MP -MF .deps/iniparser.Tpo -c -o iniparser.lo iniparser.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT iniparser.lo -MD -MP -MF .deps/iniparser.Tpo -c iniparser.cpp  -fno-common -DPIC -o .libs/iniparser.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT iniparser.lo -MD -MP -MF .deps/iniparser.Tpo -c iniparser.cpp -o iniparser.o >/dev/null 2>&1
+mv -f .deps/iniparser.Tpo .deps/iniparser.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT iodevice.lo -MD -MP -MF .deps/iodevice.Tpo -c -o iodevice.lo iodevice.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT iodevice.lo -MD -MP -MF .deps/iodevice.Tpo -c iodevice.cpp  -fno-common -DPIC -o .libs/iodevice.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT iodevice.lo -MD -MP -MF .deps/iodevice.Tpo -c iodevice.cpp -o iodevice.o >/dev/null 2>&1
+mv -f .deps/iodevice.Tpo .deps/iodevice.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT iodeviceimpl.lo -MD -MP -MF .deps/iodeviceimpl.Tpo -c -o iodeviceimpl.lo iodeviceimpl.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT iodeviceimpl.lo -MD -MP -MF .deps/iodeviceimpl.Tpo -c iodeviceimpl.cpp  -fno-common -DPIC -o .libs/iodeviceimpl.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT iodeviceimpl.lo -MD -MP -MF .deps/iodeviceimpl.Tpo -c iodeviceimpl.cpp -o iodeviceimpl.o >/dev/null 2>&1
+mv -f .deps/iodeviceimpl.Tpo .deps/iodeviceimpl.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT ioerror.lo -MD -MP -MF .deps/ioerror.Tpo -c -o ioerror.lo ioerror.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT ioerror.lo -MD -MP -MF .deps/ioerror.Tpo -c ioerror.cpp  -fno-common -DPIC -o .libs/ioerror.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT ioerror.lo -MD -MP -MF .deps/ioerror.Tpo -c ioerror.cpp -o ioerror.o >/dev/null 2>&1
+mv -f .deps/ioerror.Tpo .deps/ioerror.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT iostream.lo -MD -MP -MF .deps/iostream.Tpo -c -o iostream.lo iostream.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT iostream.lo -MD -MP -MF .deps/iostream.Tpo -c iostream.cpp  -fno-common -DPIC -o .libs/iostream.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT iostream.lo -MD -MP -MF .deps/iostream.Tpo -c iostream.cpp -o iostream.o >/dev/null 2>&1
+mv -f .deps/iostream.Tpo .deps/iostream.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT jsondeserializer.lo -MD -MP -MF .deps/jsondeserializer.Tpo -c -o jsondeserializer.lo jsondeserializer.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT jsondeserializer.lo -MD -MP -MF .deps/jsondeserializer.Tpo -c jsondeserializer.cpp  -fno-common -DPIC -o .libs/jsondeserializer.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT jsondeserializer.lo -MD -MP -MF .deps/jsondeserializer.Tpo -c jsondeserializer.cpp -o jsondeserializer.o >/dev/null 2>&1
+mv -f .deps/jsondeserializer.Tpo .deps/jsondeserializer.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT jsonformatter.lo -MD -MP -MF .deps/jsonformatter.Tpo -c -o jsonformatter.lo jsonformatter.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT jsonformatter.lo -MD -MP -MF .deps/jsonformatter.Tpo -c jsonformatter.cpp  -fno-common -DPIC -o .libs/jsonformatter.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT jsonformatter.lo -MD -MP -MF .deps/jsonformatter.Tpo -c jsonformatter.cpp -o jsonformatter.o >/dev/null 2>&1
+mv -f .deps/jsonformatter.Tpo .deps/jsonformatter.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT jsonparser.lo -MD -MP -MF .deps/jsonparser.Tpo -c -o jsonparser.lo jsonparser.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT jsonparser.lo -MD -MP -MF .deps/jsonparser.Tpo -c jsonparser.cpp  -fno-common -DPIC -o .libs/jsonparser.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT jsonparser.lo -MD -MP -MF .deps/jsonparser.Tpo -c jsonparser.cpp -o jsonparser.o >/dev/null 2>&1
+mv -f .deps/jsonparser.Tpo .deps/jsonparser.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT jsonserializer.lo -MD -MP -MF .deps/jsonserializer.Tpo -c -o jsonserializer.lo jsonserializer.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT jsonserializer.lo -MD -MP -MF .deps/jsonserializer.Tpo -c jsonserializer.cpp  -fno-common -DPIC -o .libs/jsonserializer.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT jsonserializer.lo -MD -MP -MF .deps/jsonserializer.Tpo -c jsonserializer.cpp -o jsonserializer.o >/dev/null 2>&1
+mv -f .deps/jsonserializer.Tpo .deps/jsonserializer.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT library.lo -MD -MP -MF .deps/library.Tpo -c -o library.lo library.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT library.lo -MD -MP -MF .deps/library.Tpo -c library.cpp  -fno-common -DPIC -o .libs/library.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT library.lo -MD -MP -MF .deps/library.Tpo -c library.cpp -o library.o >/dev/null 2>&1
+mv -f .deps/library.Tpo .deps/library.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT libraryimpl.lo -MD -MP -MF .deps/libraryimpl.Tpo -c -o libraryimpl.lo libraryimpl.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT libraryimpl.lo -MD -MP -MF .deps/libraryimpl.Tpo -c libraryimpl.cpp  -fno-common -DPIC -o .libs/libraryimpl.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT libraryimpl.lo -MD -MP -MF .deps/libraryimpl.Tpo -c libraryimpl.cpp -o libraryimpl.o >/dev/null 2>&1
+mv -f .deps/libraryimpl.Tpo .deps/libraryimpl.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT log.lo -MD -MP -MF .deps/log.Tpo -c -o log.lo log.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT log.lo -MD -MP -MF .deps/log.Tpo -c log.cpp  -fno-common -DPIC -o .libs/log.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT log.lo -MD -MP -MF .deps/log.Tpo -c log.cpp -o log.o >/dev/null 2>&1
+mv -f .deps/log.Tpo .deps/log.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2 -D_THREAD_SAFE  -MT md5.lo -MD -MP -MF .deps/md5.Tpo -c -o md5.lo md5.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -D_THREAD_SAFE -MT md5.lo -MD -MP -MF .deps/md5.Tpo -c md5.c  -fno-common -DPIC -o .libs/md5.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -D_THREAD_SAFE -MT md5.lo -MD -MP -MF .deps/md5.Tpo -c md5.c -o md5.o >/dev/null 2>&1
+mv -f .deps/md5.Tpo .deps/md5.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT md5stream.lo -MD -MP -MF .deps/md5stream.Tpo -c -o md5stream.lo md5stream.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT md5stream.lo -MD -MP -MF .deps/md5stream.Tpo -c md5stream.cpp  -fno-common -DPIC -o .libs/md5stream.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT md5stream.lo -MD -MP -MF .deps/md5stream.Tpo -c md5stream.cpp -o md5stream.o >/dev/null 2>&1
+mv -f .deps/md5stream.Tpo .deps/md5stream.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT mime.lo -MD -MP -MF .deps/mime.Tpo -c -o mime.lo mime.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT mime.lo -MD -MP -MF .deps/mime.Tpo -c mime.cpp  -fno-common -DPIC -o .libs/mime.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT mime.lo -MD -MP -MF .deps/mime.Tpo -c mime.cpp -o mime.o >/dev/null 2>&1
+mv -f .deps/mime.Tpo .deps/mime.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT multifstream.lo -MD -MP -MF .deps/multifstream.Tpo -c -o multifstream.lo multifstream.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT multifstream.lo -MD -MP -MF .deps/multifstream.Tpo -c multifstream.cpp  -fno-common -DPIC -o .libs/multifstream.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT multifstream.lo -MD -MP -MF .deps/multifstream.Tpo -c multifstream.cpp -o multifstream.o >/dev/null 2>&1
+mv -f .deps/multifstream.Tpo .deps/multifstream.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT mutex.lo -MD -MP -MF .deps/mutex.Tpo -c -o mutex.lo mutex.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT mutex.lo -MD -MP -MF .deps/mutex.Tpo -c mutex.cpp  -fno-common -DPIC -o .libs/mutex.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT mutex.lo -MD -MP -MF .deps/mutex.Tpo -c mutex.cpp -o mutex.o >/dev/null 2>&1
+mv -f .deps/mutex.Tpo .deps/mutex.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT muteximpl.lo -MD -MP -MF .deps/muteximpl.Tpo -c -o muteximpl.lo muteximpl.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT muteximpl.lo -MD -MP -MF .deps/muteximpl.Tpo -c muteximpl.cpp  -fno-common -DPIC -o .libs/muteximpl.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT muteximpl.lo -MD -MP -MF .deps/muteximpl.Tpo -c muteximpl.cpp -o muteximpl.o >/dev/null 2>&1
+mv -f .deps/muteximpl.Tpo .deps/muteximpl.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT pipe.lo -MD -MP -MF .deps/pipe.Tpo -c -o pipe.lo pipe.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT pipe.lo -MD -MP -MF .deps/pipe.Tpo -c pipe.cpp  -fno-common -DPIC -o .libs/pipe.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT pipe.lo -MD -MP -MF .deps/pipe.Tpo -c pipe.cpp -o pipe.o >/dev/null 2>&1
+mv -f .deps/pipe.Tpo .deps/pipe.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT pipeimpl.lo -MD -MP -MF .deps/pipeimpl.Tpo -c -o pipeimpl.lo pipeimpl.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT pipeimpl.lo -MD -MP -MF .deps/pipeimpl.Tpo -c pipeimpl.cpp  -fno-common -DPIC -o .libs/pipeimpl.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT pipeimpl.lo -MD -MP -MF .deps/pipeimpl.Tpo -c pipeimpl.cpp -o pipeimpl.o >/dev/null 2>&1
+mv -f .deps/pipeimpl.Tpo .deps/pipeimpl.Plo
+/bin/sh ../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT commandinput.lo -MD -MP -MF .deps/commandinput.Tpo -c -o commandinput.lo `test -f 'posix/commandinput.cpp' || echo './'`posix/commandinput.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT commandinput.lo -MD -MP -MF .deps/commandinput.Tpo -c posix/commandinput.cpp  -fno-common -DPIC -o .libs/commandinput.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT commandinput.lo -MD -MP -MF .deps/commandinput.Tpo -c posix/commandinput.cpp -o commandinput.o >/dev/null 2>&1
+mv -f .deps/commandinput.Tpo .deps/commandinput.Plo
+/bin/sh ../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT commandoutput.lo -MD -MP -MF .deps/commandoutput.Tpo -c -o commandoutput.lo `test -f 'posix/commandoutput.cpp' || echo './'`posix/commandoutput.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT commandoutput.lo -MD -MP -MF .deps/commandoutput.Tpo -c posix/commandoutput.cpp  -fno-common -DPIC -o .libs/commandoutput.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT commandoutput.lo -MD -MP -MF .deps/commandoutput.Tpo -c posix/commandoutput.cpp -o commandoutput.o >/dev/null 2>&1
+mv -f .deps/commandoutput.Tpo .deps/commandoutput.Plo
+/bin/sh ../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT pipestream.lo -MD -MP -MF .deps/pipestream.Tpo -c -o pipestream.lo `test -f 'posix/pipestream.cpp' || echo './'`posix/pipestream.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT pipestream.lo -MD -MP -MF .deps/pipestream.Tpo -c posix/pipestream.cpp  -fno-common -DPIC -o .libs/pipestream.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT pipestream.lo -MD -MP -MF .deps/pipestream.Tpo -c posix/pipestream.cpp -o pipestream.o >/dev/null 2>&1
+mv -f .deps/pipestream.Tpo .deps/pipestream.Plo
+/bin/sh ../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT posixpipe.lo -MD -MP -MF .deps/posixpipe.Tpo -c -o posixpipe.lo `test -f 'posix/posixpipe.cpp' || echo './'`posix/posixpipe.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT posixpipe.lo -MD -MP -MF .deps/posixpipe.Tpo -c posix/posixpipe.cpp  -fno-common -DPIC -o .libs/posixpipe.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT posixpipe.lo -MD -MP -MF .deps/posixpipe.Tpo -c posix/posixpipe.cpp -o posixpipe.o >/dev/null 2>&1
+mv -f .deps/posixpipe.Tpo .deps/posixpipe.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT properties.lo -MD -MP -MF .deps/properties.Tpo -c -o properties.lo properties.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT properties.lo -MD -MP -MF .deps/properties.Tpo -c properties.cpp  -fno-common -DPIC -o .libs/properties.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT properties.lo -MD -MP -MF .deps/properties.Tpo -c properties.cpp -o properties.o >/dev/null 2>&1
+mv -f .deps/properties.Tpo .deps/properties.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT propertiesdeserializer.lo -MD -MP -MF .deps/propertiesdeserializer.Tpo -c -o propertiesdeserializer.lo propertiesdeserializer.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT propertiesdeserializer.lo -MD -MP -MF .deps/propertiesdeserializer.Tpo -c propertiesdeserializer.cpp  -fno-common -DPIC -o .libs/propertiesdeserializer.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT propertiesdeserializer.lo -MD -MP -MF .deps/propertiesdeserializer.Tpo -c propertiesdeserializer.cpp -o propertiesdeserializer.o >/dev/null 2>&1
+mv -f .deps/propertiesdeserializer.Tpo .deps/propertiesdeserializer.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT query_params.lo -MD -MP -MF .deps/query_params.Tpo -c -o query_params.lo query_params.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT query_params.lo -MD -MP -MF .deps/query_params.Tpo -c query_params.cpp  -fno-common -DPIC -o .libs/query_params.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT query_params.lo -MD -MP -MF .deps/query_params.Tpo -c query_params.cpp -o query_params.o >/dev/null 2>&1
+mv -f .deps/query_params.Tpo .deps/query_params.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT quotedprintablestream.lo -MD -MP -MF .deps/quotedprintablestream.Tpo -c -o quotedprintablestream.lo quotedprintablestream.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT quotedprintablestream.lo -MD -MP -MF .deps/quotedprintablestream.Tpo -c quotedprintablestream.cpp  -fno-common -DPIC -o .libs/quotedprintablestream.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT quotedprintablestream.lo -MD -MP -MF .deps/quotedprintablestream.Tpo -c quotedprintablestream.cpp -o quotedprintablestream.o >/dev/null 2>&1
+mv -f .deps/quotedprintablestream.Tpo .deps/quotedprintablestream.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT regex.lo -MD -MP -MF .deps/regex.Tpo -c -o regex.lo regex.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT regex.lo -MD -MP -MF .deps/regex.Tpo -c regex.cpp  -fno-common -DPIC -o .libs/regex.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT regex.lo -MD -MP -MF .deps/regex.Tpo -c regex.cpp -o regex.o >/dev/null 2>&1
+mv -f .deps/regex.Tpo .deps/regex.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT remoteclient.lo -MD -MP -MF .deps/remoteclient.Tpo -c -o remoteclient.lo remoteclient.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT remoteclient.lo -MD -MP -MF .deps/remoteclient.Tpo -c remoteclient.cpp  -fno-common -DPIC -o .libs/remoteclient.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT remoteclient.lo -MD -MP -MF .deps/remoteclient.Tpo -c remoteclient.cpp -o remoteclient.o >/dev/null 2>&1
+mv -f .deps/remoteclient.Tpo .deps/remoteclient.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT selectable.lo -MD -MP -MF .deps/selectable.Tpo -c -o selectable.lo selectable.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT selectable.lo -MD -MP -MF .deps/selectable.Tpo -c selectable.cpp  -fno-common -DPIC -o .libs/selectable.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT selectable.lo -MD -MP -MF .deps/selectable.Tpo -c selectable.cpp -o selectable.o >/dev/null 2>&1
+mv -f .deps/selectable.Tpo .deps/selectable.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT selector.lo -MD -MP -MF .deps/selector.Tpo -c -o selector.lo selector.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT selector.lo -MD -MP -MF .deps/selector.Tpo -c selector.cpp  -fno-common -DPIC -o .libs/selector.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT selector.lo -MD -MP -MF .deps/selector.Tpo -c selector.cpp -o selector.o >/dev/null 2>&1
+mv -f .deps/selector.Tpo .deps/selector.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT selectorimpl.lo -MD -MP -MF .deps/selectorimpl.Tpo -c -o selectorimpl.lo selectorimpl.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT selectorimpl.lo -MD -MP -MF .deps/selectorimpl.Tpo -c selectorimpl.cpp  -fno-common -DPIC -o .libs/selectorimpl.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT selectorimpl.lo -MD -MP -MF .deps/selectorimpl.Tpo -c selectorimpl.cpp -o selectorimpl.o >/dev/null 2>&1
+mv -f .deps/selectorimpl.Tpo .deps/selectorimpl.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT semaphore.lo -MD -MP -MF .deps/semaphore.Tpo -c -o semaphore.lo semaphore.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT semaphore.lo -MD -MP -MF .deps/semaphore.Tpo -c semaphore.cpp  -fno-common -DPIC -o .libs/semaphore.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT semaphore.lo -MD -MP -MF .deps/semaphore.Tpo -c semaphore.cpp -o semaphore.o >/dev/null 2>&1
+mv -f .deps/semaphore.Tpo .deps/semaphore.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT semaphoreimpl.lo -MD -MP -MF .deps/semaphoreimpl.Tpo -c -o semaphoreimpl.lo semaphoreimpl.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT semaphoreimpl.lo -MD -MP -MF .deps/semaphoreimpl.Tpo -c semaphoreimpl.cpp  -fno-common -DPIC -o .libs/semaphoreimpl.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT semaphoreimpl.lo -MD -MP -MF .deps/semaphoreimpl.Tpo -c semaphoreimpl.cpp -o semaphoreimpl.o >/dev/null 2>&1
+mv -f .deps/semaphoreimpl.Tpo .deps/semaphoreimpl.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT serviceregistry.lo -MD -MP -MF .deps/serviceregistry.Tpo -c -o serviceregistry.lo serviceregistry.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT serviceregistry.lo -MD -MP -MF .deps/serviceregistry.Tpo -c serviceregistry.cpp  -fno-common -DPIC -o .libs/serviceregistry.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT serviceregistry.lo -MD -MP -MF .deps/serviceregistry.Tpo -c serviceregistry.cpp -o serviceregistry.o >/dev/null 2>&1
+mv -f .deps/serviceregistry.Tpo .deps/serviceregistry.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT settings.lo -MD -MP -MF .deps/settings.Tpo -c -o settings.lo settings.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT settings.lo -MD -MP -MF .deps/settings.Tpo -c settings.cpp  -fno-common -DPIC -o .libs/settings.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT settings.lo -MD -MP -MF .deps/settings.Tpo -c settings.cpp -o settings.o >/dev/null 2>&1
+mv -f .deps/settings.Tpo .deps/settings.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT settingsreader.lo -MD -MP -MF .deps/settingsreader.Tpo -c -o settingsreader.lo settingsreader.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT settingsreader.lo -MD -MP -MF .deps/settingsreader.Tpo -c settingsreader.cpp  -fno-common -DPIC -o .libs/settingsreader.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT settingsreader.lo -MD -MP -MF .deps/settingsreader.Tpo -c settingsreader.cpp -o settingsreader.o >/dev/null 2>&1
+mv -f .deps/settingsreader.Tpo .deps/settingsreader.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT settingswriter.lo -MD -MP -MF .deps/settingswriter.Tpo -c -o settingswriter.lo settingswriter.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT settingswriter.lo -MD -MP -MF .deps/settingswriter.Tpo -c settingswriter.cpp  -fno-common -DPIC -o .libs/settingswriter.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT settingswriter.lo -MD -MP -MF .deps/settingswriter.Tpo -c settingswriter.cpp -o settingswriter.o >/dev/null 2>&1
+mv -f .deps/settingswriter.Tpo .deps/settingswriter.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT serializationerror.lo -MD -MP -MF .deps/serializationerror.Tpo -c -o serializationerror.lo serializationerror.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT serializationerror.lo -MD -MP -MF .deps/serializationerror.Tpo -c serializationerror.cpp  -fno-common -DPIC -o .libs/serializationerror.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT serializationerror.lo -MD -MP -MF .deps/serializationerror.Tpo -c serializationerror.cpp -o serializationerror.o >/dev/null 2>&1
+mv -f .deps/serializationerror.Tpo .deps/serializationerror.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT serializationinfo.lo -MD -MP -MF .deps/serializationinfo.Tpo -c -o serializationinfo.lo serializationinfo.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT serializationinfo.lo -MD -MP -MF .deps/serializationinfo.Tpo -c serializationinfo.cpp  -fno-common -DPIC -o .libs/serializationinfo.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT serializationinfo.lo -MD -MP -MF .deps/serializationinfo.Tpo -c serializationinfo.cpp -o serializationinfo.o >/dev/null 2>&1
+mv -f .deps/serializationinfo.Tpo .deps/serializationinfo.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT signal.lo -MD -MP -MF .deps/signal.Tpo -c -o signal.lo signal.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT signal.lo -MD -MP -MF .deps/signal.Tpo -c signal.cpp  -fno-common -DPIC -o .libs/signal.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT signal.lo -MD -MP -MF .deps/signal.Tpo -c signal.cpp -o signal.o >/dev/null 2>&1
+mv -f .deps/signal.Tpo .deps/signal.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT streambuffer.lo -MD -MP -MF .deps/streambuffer.Tpo -c -o streambuffer.lo streambuffer.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT streambuffer.lo -MD -MP -MF .deps/streambuffer.Tpo -c streambuffer.cpp  -fno-common -DPIC -o .libs/streambuffer.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT streambuffer.lo -MD -MP -MF .deps/streambuffer.Tpo -c streambuffer.cpp -o streambuffer.o >/dev/null 2>&1
+mv -f .deps/streambuffer.Tpo .deps/streambuffer.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT string.lo -MD -MP -MF .deps/string.Tpo -c -o string.lo string.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT string.lo -MD -MP -MF .deps/string.Tpo -c string.cpp  -fno-common -DPIC -o .libs/string.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT string.lo -MD -MP -MF .deps/string.Tpo -c string.cpp -o string.o >/dev/null 2>&1
+mv -f .deps/string.Tpo .deps/string.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT stringstream.lo -MD -MP -MF .deps/stringstream.Tpo -c -o stringstream.lo stringstream.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT stringstream.lo -MD -MP -MF .deps/stringstream.Tpo -c stringstream.cpp  -fno-common -DPIC -o .libs/stringstream.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT stringstream.lo -MD -MP -MF .deps/stringstream.Tpo -c stringstream.cpp -o stringstream.o >/dev/null 2>&1
+mv -f .deps/stringstream.Tpo .deps/stringstream.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT systemerror.lo -MD -MP -MF .deps/systemerror.Tpo -c -o systemerror.lo systemerror.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT systemerror.lo -MD -MP -MF .deps/systemerror.Tpo -c systemerror.cpp  -fno-common -DPIC -o .libs/systemerror.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT systemerror.lo -MD -MP -MF .deps/systemerror.Tpo -c systemerror.cpp -o systemerror.o >/dev/null 2>&1
+mv -f .deps/systemerror.Tpo .deps/systemerror.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT tee.lo -MD -MP -MF .deps/tee.Tpo -c -o tee.lo tee.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT tee.lo -MD -MP -MF .deps/tee.Tpo -c tee.cpp  -fno-common -DPIC -o .libs/tee.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT tee.lo -MD -MP -MF .deps/tee.Tpo -c tee.cpp -o tee.o >/dev/null 2>&1
+mv -f .deps/tee.Tpo .deps/tee.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT textbuffer.lo -MD -MP -MF .deps/textbuffer.Tpo -c -o textbuffer.lo textbuffer.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT textbuffer.lo -MD -MP -MF .deps/textbuffer.Tpo -c textbuffer.cpp  -fno-common -DPIC -o .libs/textbuffer.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT textbuffer.lo -MD -MP -MF .deps/textbuffer.Tpo -c textbuffer.cpp -o textbuffer.o >/dev/null 2>&1
+mv -f .deps/textbuffer.Tpo .deps/textbuffer.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT textcodec.lo -MD -MP -MF .deps/textcodec.Tpo -c -o textcodec.lo textcodec.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT textcodec.lo -MD -MP -MF .deps/textcodec.Tpo -c textcodec.cpp  -fno-common -DPIC -o .libs/textcodec.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT textcodec.lo -MD -MP -MF .deps/textcodec.Tpo -c textcodec.cpp -o textcodec.o >/dev/null 2>&1
+mv -f .deps/textcodec.Tpo .deps/textcodec.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT textstream.lo -MD -MP -MF .deps/textstream.Tpo -c -o textstream.lo textstream.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT textstream.lo -MD -MP -MF .deps/textstream.Tpo -c textstream.cpp  -fno-common -DPIC -o .libs/textstream.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT textstream.lo -MD -MP -MF .deps/textstream.Tpo -c textstream.cpp -o textstream.o >/dev/null 2>&1
+mv -f .deps/textstream.Tpo .deps/textstream.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT thread.lo -MD -MP -MF .deps/thread.Tpo -c -o thread.lo thread.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT thread.lo -MD -MP -MF .deps/thread.Tpo -c thread.cpp  -fno-common -DPIC -o .libs/thread.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT thread.lo -MD -MP -MF .deps/thread.Tpo -c thread.cpp -o thread.o >/dev/null 2>&1
+mv -f .deps/thread.Tpo .deps/thread.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT threadimpl.lo -MD -MP -MF .deps/threadimpl.Tpo -c -o threadimpl.lo threadimpl.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT threadimpl.lo -MD -MP -MF .deps/threadimpl.Tpo -c threadimpl.cpp  -fno-common -DPIC -o .libs/threadimpl.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT threadimpl.lo -MD -MP -MF .deps/threadimpl.Tpo -c threadimpl.cpp -o threadimpl.o >/dev/null 2>&1
+mv -f .deps/threadimpl.Tpo .deps/threadimpl.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT threadpool.lo -MD -MP -MF .deps/threadpool.Tpo -c -o threadpool.lo threadpool.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT threadpool.lo -MD -MP -MF .deps/threadpool.Tpo -c threadpool.cpp  -fno-common -DPIC -o .libs/threadpool.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT threadpool.lo -MD -MP -MF .deps/threadpool.Tpo -c threadpool.cpp -o threadpool.o >/dev/null 2>&1
+mv -f .deps/threadpool.Tpo .deps/threadpool.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT threadpoolimpl.lo -MD -MP -MF .deps/threadpoolimpl.Tpo -c -o threadpoolimpl.lo threadpoolimpl.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT threadpoolimpl.lo -MD -MP -MF .deps/threadpoolimpl.Tpo -c threadpoolimpl.cpp  -fno-common -DPIC -o .libs/threadpoolimpl.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT threadpoolimpl.lo -MD -MP -MF .deps/threadpoolimpl.Tpo -c threadpoolimpl.cpp -o threadpoolimpl.o >/dev/null 2>&1
+mv -f .deps/threadpoolimpl.Tpo .deps/threadpoolimpl.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT time.lo -MD -MP -MF .deps/time.Tpo -c -o time.lo time.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT time.lo -MD -MP -MF .deps/time.Tpo -c time.cpp  -fno-common -DPIC -o .libs/time.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT time.lo -MD -MP -MF .deps/time.Tpo -c time.cpp -o time.o >/dev/null 2>&1
+mv -f .deps/time.Tpo .deps/time.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT timer.lo -MD -MP -MF .deps/timer.Tpo -c -o timer.lo timer.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT timer.lo -MD -MP -MF .deps/timer.Tpo -c timer.cpp  -fno-common -DPIC -o .libs/timer.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT timer.lo -MD -MP -MF .deps/timer.Tpo -c timer.cpp -o timer.o >/dev/null 2>&1
+mv -f .deps/timer.Tpo .deps/timer.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT timespan.lo -MD -MP -MF .deps/timespan.Tpo -c -o timespan.lo timespan.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT timespan.lo -MD -MP -MF .deps/timespan.Tpo -c timespan.cpp  -fno-common -DPIC -o .libs/timespan.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT timespan.lo -MD -MP -MF .deps/timespan.Tpo -c timespan.cpp -o timespan.o >/dev/null 2>&1
+mv -f .deps/timespan.Tpo .deps/timespan.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT uri.lo -MD -MP -MF .deps/uri.Tpo -c -o uri.lo uri.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT uri.lo -MD -MP -MF .deps/uri.Tpo -c uri.cpp  -fno-common -DPIC -o .libs/uri.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT uri.lo -MD -MP -MF .deps/uri.Tpo -c uri.cpp -o uri.o >/dev/null 2>&1
+mv -f .deps/uri.Tpo .deps/uri.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT utf8codec.lo -MD -MP -MF .deps/utf8codec.Tpo -c -o utf8codec.lo utf8codec.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT utf8codec.lo -MD -MP -MF .deps/utf8codec.Tpo -c utf8codec.cpp  -fno-common -DPIC -o .libs/utf8codec.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT utf8codec.lo -MD -MP -MF .deps/utf8codec.Tpo -c utf8codec.cpp -o utf8codec.o >/dev/null 2>&1
+mv -f .deps/utf8codec.Tpo .deps/utf8codec.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT uuencode.lo -MD -MP -MF .deps/uuencode.Tpo -c -o uuencode.lo uuencode.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT uuencode.lo -MD -MP -MF .deps/uuencode.Tpo -c uuencode.cpp  -fno-common -DPIC -o .libs/uuencode.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT uuencode.lo -MD -MP -MF .deps/uuencode.Tpo -c uuencode.cpp -o uuencode.o >/dev/null 2>&1
+mv -f .deps/uuencode.Tpo .deps/uuencode.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT xmltag.lo -MD -MP -MF .deps/xmltag.Tpo -c -o xmltag.lo xmltag.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT xmltag.lo -MD -MP -MF .deps/xmltag.Tpo -c xmltag.cpp  -fno-common -DPIC -o .libs/xmltag.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT xmltag.lo -MD -MP -MF .deps/xmltag.Tpo -c xmltag.cpp -o xmltag.o >/dev/null 2>&1
+mv -f .deps/xmltag.Tpo .deps/xmltag.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT net.lo -MD -MP -MF .deps/net.Tpo -c -o net.lo net.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT net.lo -MD -MP -MF .deps/net.Tpo -c net.cpp  -fno-common -DPIC -o .libs/net.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT net.lo -MD -MP -MF .deps/net.Tpo -c net.cpp -o net.o >/dev/null 2>&1
+mv -f .deps/net.Tpo .deps/net.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT tcpserverimpl.lo -MD -MP -MF .deps/tcpserverimpl.Tpo -c -o tcpserverimpl.lo tcpserverimpl.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT tcpserverimpl.lo -MD -MP -MF .deps/tcpserverimpl.Tpo -c tcpserverimpl.cpp  -fno-common -DPIC -o .libs/tcpserverimpl.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT tcpserverimpl.lo -MD -MP -MF .deps/tcpserverimpl.Tpo -c tcpserverimpl.cpp -o tcpserverimpl.o >/dev/null 2>&1
+mv -f .deps/tcpserverimpl.Tpo .deps/tcpserverimpl.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT tcpserver.lo -MD -MP -MF .deps/tcpserver.Tpo -c -o tcpserver.lo tcpserver.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT tcpserver.lo -MD -MP -MF .deps/tcpserver.Tpo -c tcpserver.cpp  -fno-common -DPIC -o .libs/tcpserver.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT tcpserver.lo -MD -MP -MF .deps/tcpserver.Tpo -c tcpserver.cpp -o tcpserver.o >/dev/null 2>&1
+mv -f .deps/tcpserver.Tpo .deps/tcpserver.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT tcpsocket.lo -MD -MP -MF .deps/tcpsocket.Tpo -c -o tcpsocket.lo tcpsocket.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT tcpsocket.lo -MD -MP -MF .deps/tcpsocket.Tpo -c tcpsocket.cpp  -fno-common -DPIC -o .libs/tcpsocket.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT tcpsocket.lo -MD -MP -MF .deps/tcpsocket.Tpo -c tcpsocket.cpp -o tcpsocket.o >/dev/null 2>&1
+mv -f .deps/tcpsocket.Tpo .deps/tcpsocket.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT tcpsocketimpl.lo -MD -MP -MF .deps/tcpsocketimpl.Tpo -c -o tcpsocketimpl.lo tcpsocketimpl.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT tcpsocketimpl.lo -MD -MP -MF .deps/tcpsocketimpl.Tpo -c tcpsocketimpl.cpp  -fno-common -DPIC -o .libs/tcpsocketimpl.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT tcpsocketimpl.lo -MD -MP -MF .deps/tcpsocketimpl.Tpo -c tcpsocketimpl.cpp -o tcpsocketimpl.o >/dev/null 2>&1
+mv -f .deps/tcpsocketimpl.Tpo .deps/tcpsocketimpl.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT tcpstream.lo -MD -MP -MF .deps/tcpstream.Tpo -c -o tcpstream.lo tcpstream.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT tcpstream.lo -MD -MP -MF .deps/tcpstream.Tpo -c tcpstream.cpp  -fno-common -DPIC -o .libs/tcpstream.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT tcpstream.lo -MD -MP -MF .deps/tcpstream.Tpo -c tcpstream.cpp -o tcpstream.o >/dev/null 2>&1
+mv -f .deps/tcpstream.Tpo .deps/tcpstream.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT udp.lo -MD -MP -MF .deps/udp.Tpo -c -o udp.lo udp.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT udp.lo -MD -MP -MF .deps/udp.Tpo -c udp.cpp  -fno-common -DPIC -o .libs/udp.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT udp.lo -MD -MP -MF .deps/udp.Tpo -c udp.cpp -o udp.o >/dev/null 2>&1
+mv -f .deps/udp.Tpo .deps/udp.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT udpstream.lo -MD -MP -MF .deps/udpstream.Tpo -c -o udpstream.lo udpstream.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT udpstream.lo -MD -MP -MF .deps/udpstream.Tpo -c udpstream.cpp  -fno-common -DPIC -o .libs/udpstream.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT udpstream.lo -MD -MP -MF .deps/udpstream.Tpo -c udpstream.cpp -o udpstream.o >/dev/null 2>&1
+mv -f .deps/udpstream.Tpo .deps/udpstream.Plo
+/bin/sh ../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT characters.lo -MD -MP -MF .deps/characters.Tpo -c -o characters.lo `test -f 'xml/characters.cpp' || echo './'`xml/characters.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT characters.lo -MD -MP -MF .deps/characters.Tpo -c xml/characters.cpp  -fno-common -DPIC -o .libs/characters.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT characters.lo -MD -MP -MF .deps/characters.Tpo -c xml/characters.cpp -o characters.o >/dev/null 2>&1
+mv -f .deps/characters.Tpo .deps/characters.Plo
+/bin/sh ../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT endelement.lo -MD -MP -MF .deps/endelement.Tpo -c -o endelement.lo `test -f 'xml/endelement.cpp' || echo './'`xml/endelement.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT endelement.lo -MD -MP -MF .deps/endelement.Tpo -c xml/endelement.cpp  -fno-common -DPIC -o .libs/endelement.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT endelement.lo -MD -MP -MF .deps/endelement.Tpo -c xml/endelement.cpp -o endelement.o >/dev/null 2>&1
+mv -f .deps/endelement.Tpo .deps/endelement.Plo
+/bin/sh ../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT entityresolver.lo -MD -MP -MF .deps/entityresolver.Tpo -c -o entityresolver.lo `test -f 'xml/entityresolver.cpp' || echo './'`xml/entityresolver.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT entityresolver.lo -MD -MP -MF .deps/entityresolver.Tpo -c xml/entityresolver.cpp  -fno-common -DPIC -o .libs/entityresolver.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT entityresolver.lo -MD -MP -MF .deps/entityresolver.Tpo -c xml/entityresolver.cpp -o entityresolver.o >/dev/null 2>&1
+mv -f .deps/entityresolver.Tpo .deps/entityresolver.Plo
+/bin/sh ../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT namespacecontext.lo -MD -MP -MF .deps/namespacecontext.Tpo -c -o namespacecontext.lo `test -f 'xml/namespacecontext.cpp' || echo './'`xml/namespacecontext.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT namespacecontext.lo -MD -MP -MF .deps/namespacecontext.Tpo -c xml/namespacecontext.cpp  -fno-common -DPIC -o .libs/namespacecontext.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT namespacecontext.lo -MD -MP -MF .deps/namespacecontext.Tpo -c xml/namespacecontext.cpp -o namespacecontext.o >/dev/null 2>&1
+mv -f .deps/namespacecontext.Tpo .deps/namespacecontext.Plo
+/bin/sh ../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT startelement.lo -MD -MP -MF .deps/startelement.Tpo -c -o startelement.lo `test -f 'xml/startelement.cpp' || echo './'`xml/startelement.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT startelement.lo -MD -MP -MF .deps/startelement.Tpo -c xml/startelement.cpp  -fno-common -DPIC -o .libs/startelement.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT startelement.lo -MD -MP -MF .deps/startelement.Tpo -c xml/startelement.cpp -o startelement.o >/dev/null 2>&1
+mv -f .deps/startelement.Tpo .deps/startelement.Plo
+/bin/sh ../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT xmldeserializer.lo -MD -MP -MF .deps/xmldeserializer.Tpo -c -o xmldeserializer.lo `test -f 'xml/xmldeserializer.cpp' || echo './'`xml/xmldeserializer.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT xmldeserializer.lo -MD -MP -MF .deps/xmldeserializer.Tpo -c xml/xmldeserializer.cpp  -fno-common -DPIC -o .libs/xmldeserializer.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT xmldeserializer.lo -MD -MP -MF .deps/xmldeserializer.Tpo -c xml/xmldeserializer.cpp -o xmldeserializer.o >/dev/null 2>&1
+mv -f .deps/xmldeserializer.Tpo .deps/xmldeserializer.Plo
+/bin/sh ../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT xmlerror.lo -MD -MP -MF .deps/xmlerror.Tpo -c -o xmlerror.lo `test -f 'xml/xmlerror.cpp' || echo './'`xml/xmlerror.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT xmlerror.lo -MD -MP -MF .deps/xmlerror.Tpo -c xml/xmlerror.cpp  -fno-common -DPIC -o .libs/xmlerror.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT xmlerror.lo -MD -MP -MF .deps/xmlerror.Tpo -c xml/xmlerror.cpp -o xmlerror.o >/dev/null 2>&1
+mv -f .deps/xmlerror.Tpo .deps/xmlerror.Plo
+/bin/sh ../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT xmlformatter.lo -MD -MP -MF .deps/xmlformatter.Tpo -c -o xmlformatter.lo `test -f 'xml/xmlformatter.cpp' || echo './'`xml/xmlformatter.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT xmlformatter.lo -MD -MP -MF .deps/xmlformatter.Tpo -c xml/xmlformatter.cpp  -fno-common -DPIC -o .libs/xmlformatter.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT xmlformatter.lo -MD -MP -MF .deps/xmlformatter.Tpo -c xml/xmlformatter.cpp -o xmlformatter.o >/dev/null 2>&1
+mv -f .deps/xmlformatter.Tpo .deps/xmlformatter.Plo
+/bin/sh ../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT xmlreader.lo -MD -MP -MF .deps/xmlreader.Tpo -c -o xmlreader.lo `test -f 'xml/xmlreader.cpp' || echo './'`xml/xmlreader.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT xmlreader.lo -MD -MP -MF .deps/xmlreader.Tpo -c xml/xmlreader.cpp  -fno-common -DPIC -o .libs/xmlreader.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT xmlreader.lo -MD -MP -MF .deps/xmlreader.Tpo -c xml/xmlreader.cpp -o xmlreader.o >/dev/null 2>&1
+mv -f .deps/xmlreader.Tpo .deps/xmlreader.Plo
+/bin/sh ../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT xmlserializer.lo -MD -MP -MF .deps/xmlserializer.Tpo -c -o xmlserializer.lo `test -f 'xml/xmlserializer.cpp' || echo './'`xml/xmlserializer.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT xmlserializer.lo -MD -MP -MF .deps/xmlserializer.Tpo -c xml/xmlserializer.cpp  -fno-common -DPIC -o .libs/xmlserializer.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT xmlserializer.lo -MD -MP -MF .deps/xmlserializer.Tpo -c xml/xmlserializer.cpp -o xmlserializer.o >/dev/null 2>&1
+mv -f .deps/xmlserializer.Tpo .deps/xmlserializer.Plo
+/bin/sh ../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT xmlwriter.lo -MD -MP -MF .deps/xmlwriter.Tpo -c -o xmlwriter.lo `test -f 'xml/xmlwriter.cpp' || echo './'`xml/xmlwriter.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT xmlwriter.lo -MD -MP -MF .deps/xmlwriter.Tpo -c xml/xmlwriter.cpp  -fno-common -DPIC -o .libs/xmlwriter.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT xmlwriter.lo -MD -MP -MF .deps/xmlwriter.Tpo -c xml/xmlwriter.cpp -o xmlwriter.o >/dev/null 2>&1
+mv -f .deps/xmlwriter.Tpo .deps/xmlwriter.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT atomicity.gcc.x86_64.lo -MD -MP -MF .deps/atomicity.gcc.x86_64.Tpo -c -o atomicity.gcc.x86_64.lo atomicity.gcc.x86_64.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT atomicity.gcc.x86_64.lo -MD -MP -MF .deps/atomicity.gcc.x86_64.Tpo -c atomicity.gcc.x86_64.cpp  -fno-common -DPIC -o .libs/atomicity.gcc.x86_64.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../src -I../include -I../include -Wno-long-long -Wall -pedantic -g -O2 -MT atomicity.gcc.x86_64.lo -MD -MP -MF .deps/atomicity.gcc.x86_64.Tpo -c atomicity.gcc.x86_64.cpp -o atomicity.gcc.x86_64.o >/dev/null 2>&1
+mv -f .deps/atomicity.gcc.x86_64.Tpo .deps/atomicity.gcc.x86_64.Plo
+/bin/sh ../libtool --tag=CXX   --mode=link g++  -g -O2  -version-info 9:0:0   -o libcxxtools.la -rpath /usr/local/tntnet/2.2rc3/lib addrinfo.lo addrinfoimpl.lo application.lo applicationimpl.lo base64codec.lo csvdeserializer.lo csvformatter.lo csvparser.lo char.lo clock.lo clockimpl.lo condition.lo conditionimpl.lo connectable.lo connection.lo cgi.lo conversionerror.lo convert.lo date.lo datetime.lo decomposer.lo deserializer.lo directory.lo directoryimpl.lo error.lo eventloop.lo eventsink.lo eventsource.lo fdstream.lo file.lo filedevice.lo filedeviceimpl.lo fileimpl.lo fileinfo.lo formatter.lo hdstream.lo inifile.lo iniparser.lo iodevice.lo iodeviceimpl.lo ioerror.lo iostream.lo jsondeserializer.lo jsonformatter.lo jsonparser.lo jsonserializer.lo library.lo libraryimpl.lo log.lo md5.lo md5stream.lo mime.lo multifstream.lo mutex.lo muteximpl.lo pipe.lo pipeimpl.lo commandinput.lo commandoutput.lo pipestream.lo posixpipe.lo properties.lo propertiesdeserializer.lo query_params.lo quotedprintablestream.lo regex.lo remoteclient.lo selectable.lo selector.lo selectorimpl.lo semaphore.lo semaphoreimpl.lo serviceregistry.lo settings.lo settingsreader.lo settingswriter.lo serializationerror.lo serializationinfo.lo signal.lo streambuffer.lo string.lo stringstream.lo systemerror.lo tee.lo textbuffer.lo textcodec.lo textstream.lo thread.lo threadimpl.lo threadpool.lo threadpoolimpl.lo time.lo timer.lo timespan.lo uri.lo utf8codec.lo uuencode.lo xmltag.lo net.lo tcpserverimpl.lo tcpserver.lo tcpsocket.lo tcpsocketimpl.lo tcpstream.lo udp.lo udpstream.lo characters.lo endelement.lo entityresolver.lo namespacecontext.lo startelement.lo xmldeserializer.lo xmlerror.lo xmlformatter.lo xmlreader.lo xmlserializer.lo xmlwriter.lo       atomicity.gcc.x86_64.lo        -lpthread
+libtool: link: g++ -dynamiclib -Wl,-undefined -Wl,dynamic_lookup -o .libs/libcxxtools.9.dylib  .libs/addrinfo.o .libs/addrinfoimpl.o .libs/application.o .libs/applicationimpl.o .libs/base64codec.o .libs/csvdeserializer.o .libs/csvformatter.o .libs/csvparser.o .libs/char.o .libs/clock.o .libs/clockimpl.o .libs/condition.o .libs/conditionimpl.o .libs/connectable.o .libs/connection.o .libs/cgi.o .libs/conversionerror.o .libs/convert.o .libs/date.o .libs/datetime.o .libs/decomposer.o .libs/deserializer.o .libs/directory.o .libs/directoryimpl.o .libs/error.o .libs/eventloop.o .libs/eventsink.o .libs/eventsource.o .libs/fdstream.o .libs/file.o .libs/filedevice.o .libs/filedeviceimpl.o .libs/fileimpl.o .libs/fileinfo.o .libs/formatter.o .libs/hdstream.o .libs/inifile.o .libs/iniparser.o .libs/iodevice.o .libs/iodeviceimpl.o .libs/ioerror.o .libs/iostream.o .libs/jsondeserializer.o .libs/jsonformatter.o .libs/jsonparser.o .libs/jsonserializer.o .libs/library.o .libs/libraryimpl.o .libs/log.o .libs/md5.o .libs/md5stream.o .libs/mime.o .libs/multifstream.o .libs/mutex.o .libs/muteximpl.o .libs/pipe.o .libs/pipeimpl.o .libs/commandinput.o .libs/commandoutput.o .libs/pipestream.o .libs/posixpipe.o .libs/properties.o .libs/propertiesdeserializer.o .libs/query_params.o .libs/quotedprintablestream.o .libs/regex.o .libs/remoteclient.o .libs/selectable.o .libs/selector.o .libs/selectorimpl.o .libs/semaphore.o .libs/semaphoreimpl.o .libs/serviceregistry.o .libs/settings.o .libs/settingsreader.o .libs/settingswriter.o .libs/serializationerror.o .libs/serializationinfo.o .libs/signal.o .libs/streambuffer.o .libs/string.o .libs/stringstream.o .libs/systemerror.o .libs/tee.o .libs/textbuffer.o .libs/textcodec.o .libs/textstream.o .libs/thread.o .libs/threadimpl.o .libs/threadpool.o .libs/threadpoolimpl.o .libs/time.o .libs/timer.o .libs/timespan.o .libs/uri.o .libs/utf8codec.o .libs/uuencode.o .libs/xmltag.o .libs/net.o .libs/tcpserverimpl.o .libs/tcpserver.o .libs/tcpsocket.o .libs/tcpsocketimpl.o .libs/tcpstream.o .libs/udp.o .libs/udpstream.o .libs/characters.o .libs/endelement.o .libs/entityresolver.o .libs/namespacecontext.o .libs/startelement.o .libs/xmldeserializer.o .libs/xmlerror.o .libs/xmlformatter.o .libs/xmlreader.o .libs/xmlserializer.o .libs/xmlwriter.o .libs/atomicity.gcc.x86_64.o   -lpthread  -O2   -install_name  /usr/local/tntnet/2.2rc3/lib/libcxxtools.9.dylib -compatibility_version 10 -current_version 10.0 -Wl,-single_module
+libtool: link: (cd ".libs" && rm -f "libcxxtools.dylib" && ln -s "libcxxtools.9.dylib" "libcxxtools.dylib")
+libtool: link: ar cru .libs/libcxxtools.a  addrinfo.o addrinfoimpl.o application.o applicationimpl.o base64codec.o csvdeserializer.o csvformatter.o csvparser.o char.o clock.o clockimpl.o condition.o conditionimpl.o connectable.o connection.o cgi.o conversionerror.o convert.o date.o datetime.o decomposer.o deserializer.o directory.o directoryimpl.o error.o eventloop.o eventsink.o eventsource.o fdstream.o file.o filedevice.o filedeviceimpl.o fileimpl.o fileinfo.o formatter.o hdstream.o inifile.o iniparser.o iodevice.o iodeviceimpl.o ioerror.o iostream.o jsondeserializer.o jsonformatter.o jsonparser.o jsonserializer.o library.o libraryimpl.o log.o md5.o md5stream.o mime.o multifstream.o mutex.o muteximpl.o pipe.o pipeimpl.o commandinput.o commandoutput.o pipestream.o posixpipe.o properties.o propertiesdeserializer.o query_params.o quotedprintablestream.o regex.o remoteclient.o selectable.o selector.o selectorimpl.o semaphore.o semaphoreimpl.o serviceregistry.o settings.o settingsreader.o settingswriter.o serializationerror.o serializationinfo.o signal.o streambuffer.o string.o stringstream.o systemerror.o tee.o textbuffer.o textcodec.o textstream.o thread.o threadimpl.o threadpool.o threadpoolimpl.o time.o timer.o timespan.o uri.o utf8codec.o uuencode.o xmltag.o net.o tcpserverimpl.o tcpserver.o tcpsocket.o tcpsocketimpl.o tcpstream.o udp.o udpstream.o characters.o endelement.o entityresolver.o namespacecontext.o startelement.o xmldeserializer.o xmlerror.o xmlformatter.o xmlreader.o xmlserializer.o xmlwriter.o atomicity.gcc.x86_64.o
+libtool: link: ranlib .libs/libcxxtools.a
+libtool: link: ( cd ".libs" && rm -f "libcxxtools.la" && ln -s "../libcxxtools.la" "libcxxtools.la" )
+Making all in src/unit
+/bin/sh ../../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I../../src  -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic  -g -O2  -MT application.lo -MD -MP -MF .deps/application.Tpo -c -o application.lo application.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT application.lo -MD -MP -MF .deps/application.Tpo -c application.cpp  -fno-common -DPIC -o .libs/application.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT application.lo -MD -MP -MF .deps/application.Tpo -c application.cpp -o application.o >/dev/null 2>&1
+mv -f .deps/application.Tpo .deps/application.Plo
+/bin/sh ../../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I../../src  -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic  -g -O2  -MT testcase.lo -MD -MP -MF .deps/testcase.Tpo -c -o testcase.lo testcase.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT testcase.lo -MD -MP -MF .deps/testcase.Tpo -c testcase.cpp  -fno-common -DPIC -o .libs/testcase.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT testcase.lo -MD -MP -MF .deps/testcase.Tpo -c testcase.cpp -o testcase.o >/dev/null 2>&1
+mv -f .deps/testcase.Tpo .deps/testcase.Plo
+/bin/sh ../../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I../../src  -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic  -g -O2  -MT test.lo -MD -MP -MF .deps/test.Tpo -c -o test.lo test.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT test.lo -MD -MP -MF .deps/test.Tpo -c test.cpp  -fno-common -DPIC -o .libs/test.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT test.lo -MD -MP -MF .deps/test.Tpo -c test.cpp -o test.o >/dev/null 2>&1
+mv -f .deps/test.Tpo .deps/test.Plo
+/bin/sh ../../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I../../src  -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic  -g -O2  -MT testsuite.lo -MD -MP -MF .deps/testsuite.Tpo -c -o testsuite.lo testsuite.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT testsuite.lo -MD -MP -MF .deps/testsuite.Tpo -c testsuite.cpp  -fno-common -DPIC -o .libs/testsuite.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT testsuite.lo -MD -MP -MF .deps/testsuite.Tpo -c testsuite.cpp -o testsuite.o >/dev/null 2>&1
+mv -f .deps/testsuite.Tpo .deps/testsuite.Plo
+/bin/sh ../../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I../../src  -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic  -g -O2  -MT assertion.lo -MD -MP -MF .deps/assertion.Tpo -c -o assertion.lo assertion.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT assertion.lo -MD -MP -MF .deps/assertion.Tpo -c assertion.cpp  -fno-common -DPIC -o .libs/assertion.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT assertion.lo -MD -MP -MF .deps/assertion.Tpo -c assertion.cpp -o assertion.o >/dev/null 2>&1
+mv -f .deps/assertion.Tpo .deps/assertion.Plo
+/bin/sh ../../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I../../src  -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic  -g -O2  -MT reporter.lo -MD -MP -MF .deps/reporter.Tpo -c -o reporter.lo reporter.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT reporter.lo -MD -MP -MF .deps/reporter.Tpo -c reporter.cpp  -fno-common -DPIC -o .libs/reporter.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT reporter.lo -MD -MP -MF .deps/reporter.Tpo -c reporter.cpp -o reporter.o >/dev/null 2>&1
+mv -f .deps/reporter.Tpo .deps/reporter.Plo
+/bin/sh ../../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I../../src  -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic  -g -O2  -MT testcontext.lo -MD -MP -MF .deps/testcontext.Tpo -c -o testcontext.lo testcontext.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT testcontext.lo -MD -MP -MF .deps/testcontext.Tpo -c testcontext.cpp  -fno-common -DPIC -o .libs/testcontext.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT testcontext.lo -MD -MP -MF .deps/testcontext.Tpo -c testcontext.cpp -o testcontext.o >/dev/null 2>&1
+mv -f .deps/testcontext.Tpo .deps/testcontext.Plo
+/bin/sh ../../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I../../src  -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic  -g -O2  -MT testprotocol.lo -MD -MP -MF .deps/testprotocol.Tpo -c -o testprotocol.lo testprotocol.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT testprotocol.lo -MD -MP -MF .deps/testprotocol.Tpo -c testprotocol.cpp  -fno-common -DPIC -o .libs/testprotocol.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT testprotocol.lo -MD -MP -MF .deps/testprotocol.Tpo -c testprotocol.cpp -o testprotocol.o >/dev/null 2>&1
+mv -f .deps/testprotocol.Tpo .deps/testprotocol.Plo
+/bin/sh ../../libtool --tag=CXX   --mode=link g++  -g -O2  -version-info 9:0:0   -o libcxxtools-unit.la -rpath /usr/local/tntnet/2.2rc3/lib application.lo testcase.lo test.lo testsuite.lo assertion.lo reporter.lo testcontext.lo testprotocol.lo ../../src/libcxxtools.la -lpthread
+libtool: link: g++ -dynamiclib -Wl,-undefined -Wl,dynamic_lookup -o .libs/libcxxtools-unit.9.dylib  .libs/application.o .libs/testcase.o .libs/test.o .libs/testsuite.o .libs/assertion.o .libs/reporter.o .libs/testcontext.o .libs/testprotocol.o   ../../src/.libs/libcxxtools.dylib -lpthread  -O2   -install_name  /usr/local/tntnet/2.2rc3/lib/libcxxtools-unit.9.dylib -compatibility_version 10 -current_version 10.0 -Wl,-single_module
+libtool: link: (cd ".libs" && rm -f "libcxxtools-unit.dylib" && ln -s "libcxxtools-unit.9.dylib" "libcxxtools-unit.dylib")
+libtool: link: ar cru .libs/libcxxtools-unit.a  application.o testcase.o test.o testsuite.o assertion.o reporter.o testcontext.o testprotocol.o
+libtool: link: ranlib .libs/libcxxtools-unit.a
+libtool: link: ( cd ".libs" && rm -f "libcxxtools-unit.la" && ln -s "../libcxxtools-unit.la" "libcxxtools-unit.la" )
+Making all in src/http
+/bin/sh ../../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I../../src  -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic  -g -O2  -MT chunkedreader.lo -MD -MP -MF .deps/chunkedreader.Tpo -c -o chunkedreader.lo chunkedreader.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT chunkedreader.lo -MD -MP -MF .deps/chunkedreader.Tpo -c chunkedreader.cpp  -fno-common -DPIC -o .libs/chunkedreader.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT chunkedreader.lo -MD -MP -MF .deps/chunkedreader.Tpo -c chunkedreader.cpp -o chunkedreader.o >/dev/null 2>&1
+mv -f .deps/chunkedreader.Tpo .deps/chunkedreader.Plo
+/bin/sh ../../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I../../src  -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic  -g -O2  -MT client.lo -MD -MP -MF .deps/client.Tpo -c -o client.lo client.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT client.lo -MD -MP -MF .deps/client.Tpo -c client.cpp  -fno-common -DPIC -o .libs/client.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT client.lo -MD -MP -MF .deps/client.Tpo -c client.cpp -o client.o >/dev/null 2>&1
+mv -f .deps/client.Tpo .deps/client.Plo
+/bin/sh ../../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I../../src  -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic  -g -O2  -MT clientimpl.lo -MD -MP -MF .deps/clientimpl.Tpo -c -o clientimpl.lo clientimpl.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT clientimpl.lo -MD -MP -MF .deps/clientimpl.Tpo -c clientimpl.cpp  -fno-common -DPIC -o .libs/clientimpl.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT clientimpl.lo -MD -MP -MF .deps/clientimpl.Tpo -c clientimpl.cpp -o clientimpl.o >/dev/null 2>&1
+mv -f .deps/clientimpl.Tpo .deps/clientimpl.Plo
+/bin/sh ../../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I../../src  -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic  -g -O2  -MT mapper.lo -MD -MP -MF .deps/mapper.Tpo -c -o mapper.lo mapper.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT mapper.lo -MD -MP -MF .deps/mapper.Tpo -c mapper.cpp  -fno-common -DPIC -o .libs/mapper.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT mapper.lo -MD -MP -MF .deps/mapper.Tpo -c mapper.cpp -o mapper.o >/dev/null 2>&1
+mv -f .deps/mapper.Tpo .deps/mapper.Plo
+/bin/sh ../../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I../../src  -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic  -g -O2  -MT messageheader.lo -MD -MP -MF .deps/messageheader.Tpo -c -o messageheader.lo messageheader.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT messageheader.lo -MD -MP -MF .deps/messageheader.Tpo -c messageheader.cpp  -fno-common -DPIC -o .libs/messageheader.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT messageheader.lo -MD -MP -MF .deps/messageheader.Tpo -c messageheader.cpp -o messageheader.o >/dev/null 2>&1
+mv -f .deps/messageheader.Tpo .deps/messageheader.Plo
+/bin/sh ../../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I../../src  -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic  -g -O2  -MT notauthenticatedresponder.lo -MD -MP -MF .deps/notauthenticatedresponder.Tpo -c -o notauthenticatedresponder.lo notauthenticatedresponder.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT notauthenticatedresponder.lo -MD -MP -MF .deps/notauthenticatedresponder.Tpo -c notauthenticatedresponder.cpp  -fno-common -DPIC -o .libs/notauthenticatedresponder.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT notauthenticatedresponder.lo -MD -MP -MF .deps/notauthenticatedresponder.Tpo -c notauthenticatedresponder.cpp -o notauthenticatedresponder.o >/dev/null 2>&1
+mv -f .deps/notauthenticatedresponder.Tpo .deps/notauthenticatedresponder.Plo
+/bin/sh ../../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I../../src  -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic  -g -O2  -MT notauthenticatedservice.lo -MD -MP -MF .deps/notauthenticatedservice.Tpo -c -o notauthenticatedservice.lo notauthenticatedservice.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT notauthenticatedservice.lo -MD -MP -MF .deps/notauthenticatedservice.Tpo -c notauthenticatedservice.cpp  -fno-common -DPIC -o .libs/notauthenticatedservice.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT notauthenticatedservice.lo -MD -MP -MF .deps/notauthenticatedservice.Tpo -c notauthenticatedservice.cpp -o notauthenticatedservice.o >/dev/null 2>&1
+mv -f .deps/notauthenticatedservice.Tpo .deps/notauthenticatedservice.Plo
+/bin/sh ../../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I../../src  -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic  -g -O2  -MT notfoundresponder.lo -MD -MP -MF .deps/notfoundresponder.Tpo -c -o notfoundresponder.lo notfoundresponder.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT notfoundresponder.lo -MD -MP -MF .deps/notfoundresponder.Tpo -c notfoundresponder.cpp  -fno-common -DPIC -o .libs/notfoundresponder.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT notfoundresponder.lo -MD -MP -MF .deps/notfoundresponder.Tpo -c notfoundresponder.cpp -o notfoundresponder.o >/dev/null 2>&1
+mv -f .deps/notfoundresponder.Tpo .deps/notfoundresponder.Plo
+/bin/sh ../../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I../../src  -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic  -g -O2  -MT notfoundservice.lo -MD -MP -MF .deps/notfoundservice.Tpo -c -o notfoundservice.lo notfoundservice.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT notfoundservice.lo -MD -MP -MF .deps/notfoundservice.Tpo -c notfoundservice.cpp  -fno-common -DPIC -o .libs/notfoundservice.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT notfoundservice.lo -MD -MP -MF .deps/notfoundservice.Tpo -c notfoundservice.cpp -o notfoundservice.o >/dev/null 2>&1
+mv -f .deps/notfoundservice.Tpo .deps/notfoundservice.Plo
+/bin/sh ../../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I../../src  -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic  -g -O2  -MT parser.lo -MD -MP -MF .deps/parser.Tpo -c -o parser.lo parser.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT parser.lo -MD -MP -MF .deps/parser.Tpo -c parser.cpp  -fno-common -DPIC -o .libs/parser.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT parser.lo -MD -MP -MF .deps/parser.Tpo -c parser.cpp -o parser.o >/dev/null 2>&1
+mv -f .deps/parser.Tpo .deps/parser.Plo
+/bin/sh ../../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I../../src  -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic  -g -O2  -MT server.lo -MD -MP -MF .deps/server.Tpo -c -o server.lo server.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT server.lo -MD -MP -MF .deps/server.Tpo -c server.cpp  -fno-common -DPIC -o .libs/server.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT server.lo -MD -MP -MF .deps/server.Tpo -c server.cpp -o server.o >/dev/null 2>&1
+mv -f .deps/server.Tpo .deps/server.Plo
+/bin/sh ../../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I../../src  -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic  -g -O2  -MT serverimpl.lo -MD -MP -MF .deps/serverimpl.Tpo -c -o serverimpl.lo serverimpl.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT serverimpl.lo -MD -MP -MF .deps/serverimpl.Tpo -c serverimpl.cpp  -fno-common -DPIC -o .libs/serverimpl.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT serverimpl.lo -MD -MP -MF .deps/serverimpl.Tpo -c serverimpl.cpp -o serverimpl.o >/dev/null 2>&1
+mv -f .deps/serverimpl.Tpo .deps/serverimpl.Plo
+/bin/sh ../../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I../../src  -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic  -g -O2  -MT service.lo -MD -MP -MF .deps/service.Tpo -c -o service.lo service.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT service.lo -MD -MP -MF .deps/service.Tpo -c service.cpp  -fno-common -DPIC -o .libs/service.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT service.lo -MD -MP -MF .deps/service.Tpo -c service.cpp -o service.o >/dev/null 2>&1
+mv -f .deps/service.Tpo .deps/service.Plo
+/bin/sh ../../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I../../src  -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic  -g -O2  -MT socket.lo -MD -MP -MF .deps/socket.Tpo -c -o socket.lo socket.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT socket.lo -MD -MP -MF .deps/socket.Tpo -c socket.cpp  -fno-common -DPIC -o .libs/socket.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT socket.lo -MD -MP -MF .deps/socket.Tpo -c socket.cpp -o socket.o >/dev/null 2>&1
+mv -f .deps/socket.Tpo .deps/socket.Plo
+/bin/sh ../../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I../../src  -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic  -g -O2  -MT request.lo -MD -MP -MF .deps/request.Tpo -c -o request.lo request.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT request.lo -MD -MP -MF .deps/request.Tpo -c request.cpp  -fno-common -DPIC -o .libs/request.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT request.lo -MD -MP -MF .deps/request.Tpo -c request.cpp -o request.o >/dev/null 2>&1
+mv -f .deps/request.Tpo .deps/request.Plo
+/bin/sh ../../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I../../src  -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic  -g -O2  -MT responder.lo -MD -MP -MF .deps/responder.Tpo -c -o responder.lo responder.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT responder.lo -MD -MP -MF .deps/responder.Tpo -c responder.cpp  -fno-common -DPIC -o .libs/responder.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT responder.lo -MD -MP -MF .deps/responder.Tpo -c responder.cpp -o responder.o >/dev/null 2>&1
+mv -f .deps/responder.Tpo .deps/responder.Plo
+/bin/sh ../../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I../../src  -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic  -g -O2  -MT worker.lo -MD -MP -MF .deps/worker.Tpo -c -o worker.lo worker.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT worker.lo -MD -MP -MF .deps/worker.Tpo -c worker.cpp  -fno-common -DPIC -o .libs/worker.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT worker.lo -MD -MP -MF .deps/worker.Tpo -c worker.cpp -o worker.o >/dev/null 2>&1
+mv -f .deps/worker.Tpo .deps/worker.Plo
+/bin/sh ../../libtool --tag=CXX   --mode=link g++  -g -O2  -version-info 9:0:0   -o libcxxtools-http.la -rpath /usr/local/tntnet/2.2rc3/lib chunkedreader.lo client.lo clientimpl.lo mapper.lo messageheader.lo notauthenticatedresponder.lo notauthenticatedservice.lo notfoundresponder.lo notfoundservice.lo parser.lo server.lo serverimpl.lo service.lo socket.lo request.lo responder.lo worker.lo ../../src/libcxxtools.la -lpthread
+libtool: link: g++ -dynamiclib -Wl,-undefined -Wl,dynamic_lookup -o .libs/libcxxtools-http.9.dylib  .libs/chunkedreader.o .libs/client.o .libs/clientimpl.o .libs/mapper.o .libs/messageheader.o .libs/notauthenticatedresponder.o .libs/notauthenticatedservice.o .libs/notfoundresponder.o .libs/notfoundservice.o .libs/parser.o .libs/server.o .libs/serverimpl.o .libs/service.o .libs/socket.o .libs/request.o .libs/responder.o .libs/worker.o   ../../src/.libs/libcxxtools.dylib -lpthread  -O2   -install_name  /usr/local/tntnet/2.2rc3/lib/libcxxtools-http.9.dylib -compatibility_version 10 -current_version 10.0 -Wl,-single_module
+libtool: link: (cd ".libs" && rm -f "libcxxtools-http.dylib" && ln -s "libcxxtools-http.9.dylib" "libcxxtools-http.dylib")
+libtool: link: ar cru .libs/libcxxtools-http.a  chunkedreader.o client.o clientimpl.o mapper.o messageheader.o notauthenticatedresponder.o notauthenticatedservice.o notfoundresponder.o notfoundservice.o parser.o server.o serverimpl.o service.o socket.o request.o responder.o worker.o
+libtool: link: ranlib .libs/libcxxtools-http.a
+libtool: link: ( cd ".libs" && rm -f "libcxxtools-http.la" && ln -s "../libcxxtools-http.la" "libcxxtools-http.la" )
+Making all in src/xmlrpc
+/bin/sh ../../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I../../src  -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic  -g -O2  -MT client.lo -MD -MP -MF .deps/client.Tpo -c -o client.lo client.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT client.lo -MD -MP -MF .deps/client.Tpo -c client.cpp  -fno-common -DPIC -o .libs/client.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT client.lo -MD -MP -MF .deps/client.Tpo -c client.cpp -o client.o >/dev/null 2>&1
+mv -f .deps/client.Tpo .deps/client.Plo
+/bin/sh ../../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I../../src  -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic  -g -O2  -MT clientimpl.lo -MD -MP -MF .deps/clientimpl.Tpo -c -o clientimpl.lo clientimpl.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT clientimpl.lo -MD -MP -MF .deps/clientimpl.Tpo -c clientimpl.cpp  -fno-common -DPIC -o .libs/clientimpl.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT clientimpl.lo -MD -MP -MF .deps/clientimpl.Tpo -c clientimpl.cpp -o clientimpl.o >/dev/null 2>&1
+mv -f .deps/clientimpl.Tpo .deps/clientimpl.Plo
+/bin/sh ../../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I../../src  -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic  -g -O2  -MT httpclient.lo -MD -MP -MF .deps/httpclient.Tpo -c -o httpclient.lo httpclient.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT httpclient.lo -MD -MP -MF .deps/httpclient.Tpo -c httpclient.cpp  -fno-common -DPIC -o .libs/httpclient.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT httpclient.lo -MD -MP -MF .deps/httpclient.Tpo -c httpclient.cpp -o httpclient.o >/dev/null 2>&1
+mv -f .deps/httpclient.Tpo .deps/httpclient.Plo
+/bin/sh ../../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I../../src  -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic  -g -O2  -MT httpclientimpl.lo -MD -MP -MF .deps/httpclientimpl.Tpo -c -o httpclientimpl.lo httpclientimpl.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT httpclientimpl.lo -MD -MP -MF .deps/httpclientimpl.Tpo -c httpclientimpl.cpp  -fno-common -DPIC -o .libs/httpclientimpl.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT httpclientimpl.lo -MD -MP -MF .deps/httpclientimpl.Tpo -c httpclientimpl.cpp -o httpclientimpl.o >/dev/null 2>&1
+mv -f .deps/httpclientimpl.Tpo .deps/httpclientimpl.Plo
+/bin/sh ../../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I../../src  -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic  -g -O2  -MT formatter.lo -MD -MP -MF .deps/formatter.Tpo -c -o formatter.lo formatter.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT formatter.lo -MD -MP -MF .deps/formatter.Tpo -c formatter.cpp  -fno-common -DPIC -o .libs/formatter.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT formatter.lo -MD -MP -MF .deps/formatter.Tpo -c formatter.cpp -o formatter.o >/dev/null 2>&1
+mv -f .deps/formatter.Tpo .deps/formatter.Plo
+/bin/sh ../../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I../../src  -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic  -g -O2  -MT responder.lo -MD -MP -MF .deps/responder.Tpo -c -o responder.lo responder.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT responder.lo -MD -MP -MF .deps/responder.Tpo -c responder.cpp  -fno-common -DPIC -o .libs/responder.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT responder.lo -MD -MP -MF .deps/responder.Tpo -c responder.cpp -o responder.o >/dev/null 2>&1
+mv -f .deps/responder.Tpo .deps/responder.Plo
+/bin/sh ../../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I../../src  -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic  -g -O2  -MT scanner.lo -MD -MP -MF .deps/scanner.Tpo -c -o scanner.lo scanner.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT scanner.lo -MD -MP -MF .deps/scanner.Tpo -c scanner.cpp  -fno-common -DPIC -o .libs/scanner.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT scanner.lo -MD -MP -MF .deps/scanner.Tpo -c scanner.cpp -o scanner.o >/dev/null 2>&1
+mv -f .deps/scanner.Tpo .deps/scanner.Plo
+/bin/sh ../../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I../../src  -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic  -g -O2  -MT service.lo -MD -MP -MF .deps/service.Tpo -c -o service.lo service.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT service.lo -MD -MP -MF .deps/service.Tpo -c service.cpp  -fno-common -DPIC -o .libs/service.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT service.lo -MD -MP -MF .deps/service.Tpo -c service.cpp -o service.o >/dev/null 2>&1
+mv -f .deps/service.Tpo .deps/service.Plo
+/bin/sh ../../libtool --tag=CXX   --mode=link g++  -g -O2  -version-info 9:0:0   -o libcxxtools-xmlrpc.la -rpath /usr/local/tntnet/2.2rc3/lib client.lo clientimpl.lo httpclient.lo httpclientimpl.lo formatter.lo responder.lo scanner.lo service.lo ../../src/libcxxtools.la ../../src/http/libcxxtools-http.la -lpthread
+libtool: link: g++ -dynamiclib -Wl,-undefined -Wl,dynamic_lookup -o .libs/libcxxtools-xmlrpc.9.dylib  .libs/client.o .libs/clientimpl.o .libs/httpclient.o .libs/httpclientimpl.o .libs/formatter.o .libs/responder.o .libs/scanner.o .libs/service.o   ../../src/.libs/libcxxtools.dylib ../../src/http/.libs/libcxxtools-http.dylib /usr/local/tntnet/2.2rc3/build/cxxtools-2.2rc4/src/.libs/libcxxtools.dylib -lpthread  -O2 -Wl,-dylib_file -Wl,/usr/local/tntnet/2.2rc3/lib/libcxxtools.9.dylib:/usr/local/tntnet/2.2rc3/build/cxxtools-2.2rc4/src/.libs/libcxxtools.dylib   -install_name  /usr/local/tntnet/2.2rc3/lib/libcxxtools-xmlrpc.9.dylib -compatibility_version 10 -current_version 10.0 -Wl,-single_module
+libtool: link: (cd ".libs" && rm -f "libcxxtools-xmlrpc.dylib" && ln -s "libcxxtools-xmlrpc.9.dylib" "libcxxtools-xmlrpc.dylib")
+libtool: link: ar cru .libs/libcxxtools-xmlrpc.a  client.o clientimpl.o httpclient.o httpclientimpl.o formatter.o responder.o scanner.o service.o
+libtool: link: ranlib .libs/libcxxtools-xmlrpc.a
+libtool: link: ( cd ".libs" && rm -f "libcxxtools-xmlrpc.la" && ln -s "../libcxxtools-xmlrpc.la" "libcxxtools-xmlrpc.la" )
+Making all in src/bin
+/bin/sh ../../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I../../src  -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic  -g -O2  -MT deserializer.lo -MD -MP -MF .deps/deserializer.Tpo -c -o deserializer.lo deserializer.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT deserializer.lo -MD -MP -MF .deps/deserializer.Tpo -c deserializer.cpp  -fno-common -DPIC -o .libs/deserializer.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT deserializer.lo -MD -MP -MF .deps/deserializer.Tpo -c deserializer.cpp -o deserializer.o >/dev/null 2>&1
+mv -f .deps/deserializer.Tpo .deps/deserializer.Plo
+/bin/sh ../../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I../../src  -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic  -g -O2  -MT formatter.lo -MD -MP -MF .deps/formatter.Tpo -c -o formatter.lo formatter.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT formatter.lo -MD -MP -MF .deps/formatter.Tpo -c formatter.cpp  -fno-common -DPIC -o .libs/formatter.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT formatter.lo -MD -MP -MF .deps/formatter.Tpo -c formatter.cpp -o formatter.o >/dev/null 2>&1
+mv -f .deps/formatter.Tpo .deps/formatter.Plo
+/bin/sh ../../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I../../src  -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic  -g -O2  -MT responder.lo -MD -MP -MF .deps/responder.Tpo -c -o responder.lo responder.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT responder.lo -MD -MP -MF .deps/responder.Tpo -c responder.cpp  -fno-common -DPIC -o .libs/responder.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT responder.lo -MD -MP -MF .deps/responder.Tpo -c responder.cpp -o responder.o >/dev/null 2>&1
+mv -f .deps/responder.Tpo .deps/responder.Plo
+/bin/sh ../../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I../../src  -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic  -g -O2  -MT socket.lo -MD -MP -MF .deps/socket.Tpo -c -o socket.lo socket.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT socket.lo -MD -MP -MF .deps/socket.Tpo -c socket.cpp  -fno-common -DPIC -o .libs/socket.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT socket.lo -MD -MP -MF .deps/socket.Tpo -c socket.cpp -o socket.o >/dev/null 2>&1
+mv -f .deps/socket.Tpo .deps/socket.Plo
+/bin/sh ../../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I../../src  -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic  -g -O2  -MT rpcclient.lo -MD -MP -MF .deps/rpcclient.Tpo -c -o rpcclient.lo rpcclient.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT rpcclient.lo -MD -MP -MF .deps/rpcclient.Tpo -c rpcclient.cpp  -fno-common -DPIC -o .libs/rpcclient.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT rpcclient.lo -MD -MP -MF .deps/rpcclient.Tpo -c rpcclient.cpp -o rpcclient.o >/dev/null 2>&1
+mv -f .deps/rpcclient.Tpo .deps/rpcclient.Plo
+/bin/sh ../../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I../../src  -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic  -g -O2  -MT rpcclientimpl.lo -MD -MP -MF .deps/rpcclientimpl.Tpo -c -o rpcclientimpl.lo rpcclientimpl.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT rpcclientimpl.lo -MD -MP -MF .deps/rpcclientimpl.Tpo -c rpcclientimpl.cpp  -fno-common -DPIC -o .libs/rpcclientimpl.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT rpcclientimpl.lo -MD -MP -MF .deps/rpcclientimpl.Tpo -c rpcclientimpl.cpp -o rpcclientimpl.o >/dev/null 2>&1
+mv -f .deps/rpcclientimpl.Tpo .deps/rpcclientimpl.Plo
+/bin/sh ../../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I../../src  -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic  -g -O2  -MT rpcserver.lo -MD -MP -MF .deps/rpcserver.Tpo -c -o rpcserver.lo rpcserver.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT rpcserver.lo -MD -MP -MF .deps/rpcserver.Tpo -c rpcserver.cpp  -fno-common -DPIC -o .libs/rpcserver.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT rpcserver.lo -MD -MP -MF .deps/rpcserver.Tpo -c rpcserver.cpp -o rpcserver.o >/dev/null 2>&1
+mv -f .deps/rpcserver.Tpo .deps/rpcserver.Plo
+/bin/sh ../../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I../../src  -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic  -g -O2  -MT rpcserverimpl.lo -MD -MP -MF .deps/rpcserverimpl.Tpo -c -o rpcserverimpl.lo rpcserverimpl.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT rpcserverimpl.lo -MD -MP -MF .deps/rpcserverimpl.Tpo -c rpcserverimpl.cpp  -fno-common -DPIC -o .libs/rpcserverimpl.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT rpcserverimpl.lo -MD -MP -MF .deps/rpcserverimpl.Tpo -c rpcserverimpl.cpp -o rpcserverimpl.o >/dev/null 2>&1
+mv -f .deps/rpcserverimpl.Tpo .deps/rpcserverimpl.Plo
+/bin/sh ../../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I../../src  -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic  -g -O2  -MT scanner.lo -MD -MP -MF .deps/scanner.Tpo -c -o scanner.lo scanner.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT scanner.lo -MD -MP -MF .deps/scanner.Tpo -c scanner.cpp  -fno-common -DPIC -o .libs/scanner.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT scanner.lo -MD -MP -MF .deps/scanner.Tpo -c scanner.cpp -o scanner.o >/dev/null 2>&1
+mv -f .deps/scanner.Tpo .deps/scanner.Plo
+/bin/sh ../../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I../../src  -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic  -g -O2  -MT valueparser.lo -MD -MP -MF .deps/valueparser.Tpo -c -o valueparser.lo valueparser.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT valueparser.lo -MD -MP -MF .deps/valueparser.Tpo -c valueparser.cpp  -fno-common -DPIC -o .libs/valueparser.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT valueparser.lo -MD -MP -MF .deps/valueparser.Tpo -c valueparser.cpp -o valueparser.o >/dev/null 2>&1
+mv -f .deps/valueparser.Tpo .deps/valueparser.Plo
+/bin/sh ../../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I../../src  -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic  -g -O2  -MT worker.lo -MD -MP -MF .deps/worker.Tpo -c -o worker.lo worker.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT worker.lo -MD -MP -MF .deps/worker.Tpo -c worker.cpp  -fno-common -DPIC -o .libs/worker.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT worker.lo -MD -MP -MF .deps/worker.Tpo -c worker.cpp -o worker.o >/dev/null 2>&1
+mv -f .deps/worker.Tpo .deps/worker.Plo
+/bin/sh ../../libtool --tag=CXX   --mode=link g++  -g -O2  -version-info 9:0:0   -o libcxxtools-bin.la -rpath /usr/local/tntnet/2.2rc3/lib deserializer.lo formatter.lo responder.lo socket.lo rpcclient.lo rpcclientimpl.lo rpcserver.lo rpcserverimpl.lo scanner.lo valueparser.lo worker.lo ../../src/libcxxtools.la -lpthread
+libtool: link: g++ -dynamiclib -Wl,-undefined -Wl,dynamic_lookup -o .libs/libcxxtools-bin.9.dylib  .libs/deserializer.o .libs/formatter.o .libs/responder.o .libs/socket.o .libs/rpcclient.o .libs/rpcclientimpl.o .libs/rpcserver.o .libs/rpcserverimpl.o .libs/scanner.o .libs/valueparser.o .libs/worker.o   ../../src/.libs/libcxxtools.dylib -lpthread  -O2   -install_name  /usr/local/tntnet/2.2rc3/lib/libcxxtools-bin.9.dylib -compatibility_version 10 -current_version 10.0 -Wl,-single_module
+libtool: link: (cd ".libs" && rm -f "libcxxtools-bin.dylib" && ln -s "libcxxtools-bin.9.dylib" "libcxxtools-bin.dylib")
+libtool: link: ar cru .libs/libcxxtools-bin.a  deserializer.o formatter.o responder.o socket.o rpcclient.o rpcclientimpl.o rpcserver.o rpcserverimpl.o scanner.o valueparser.o worker.o
+libtool: link: ranlib .libs/libcxxtools-bin.a
+libtool: link: ( cd ".libs" && rm -f "libcxxtools-bin.la" && ln -s "../libcxxtools-bin.la" "libcxxtools-bin.la" )
+Making all in src/json
+/bin/sh ../../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I../../src  -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic  -g -O2  -MT httpclient.lo -MD -MP -MF .deps/httpclient.Tpo -c -o httpclient.lo httpclient.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT httpclient.lo -MD -MP -MF .deps/httpclient.Tpo -c httpclient.cpp  -fno-common -DPIC -o .libs/httpclient.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT httpclient.lo -MD -MP -MF .deps/httpclient.Tpo -c httpclient.cpp -o httpclient.o >/dev/null 2>&1
+mv -f .deps/httpclient.Tpo .deps/httpclient.Plo
+/bin/sh ../../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I../../src  -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic  -g -O2  -MT httpclientimpl.lo -MD -MP -MF .deps/httpclientimpl.Tpo -c -o httpclientimpl.lo httpclientimpl.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT httpclientimpl.lo -MD -MP -MF .deps/httpclientimpl.Tpo -c httpclientimpl.cpp  -fno-common -DPIC -o .libs/httpclientimpl.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT httpclientimpl.lo -MD -MP -MF .deps/httpclientimpl.Tpo -c httpclientimpl.cpp -o httpclientimpl.o >/dev/null 2>&1
+mv -f .deps/httpclientimpl.Tpo .deps/httpclientimpl.Plo
+/bin/sh ../../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I../../src  -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic  -g -O2  -MT httpresponder.lo -MD -MP -MF .deps/httpresponder.Tpo -c -o httpresponder.lo httpresponder.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT httpresponder.lo -MD -MP -MF .deps/httpresponder.Tpo -c httpresponder.cpp  -fno-common -DPIC -o .libs/httpresponder.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT httpresponder.lo -MD -MP -MF .deps/httpresponder.Tpo -c httpresponder.cpp -o httpresponder.o >/dev/null 2>&1
+mv -f .deps/httpresponder.Tpo .deps/httpresponder.Plo
+/bin/sh ../../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I../../src  -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic  -g -O2  -MT httpservice.lo -MD -MP -MF .deps/httpservice.Tpo -c -o httpservice.lo httpservice.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT httpservice.lo -MD -MP -MF .deps/httpservice.Tpo -c httpservice.cpp  -fno-common -DPIC -o .libs/httpservice.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT httpservice.lo -MD -MP -MF .deps/httpservice.Tpo -c httpservice.cpp -o httpservice.o >/dev/null 2>&1
+mv -f .deps/httpservice.Tpo .deps/httpservice.Plo
+/bin/sh ../../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I../../src  -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic  -g -O2  -MT rpcclient.lo -MD -MP -MF .deps/rpcclient.Tpo -c -o rpcclient.lo rpcclient.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT rpcclient.lo -MD -MP -MF .deps/rpcclient.Tpo -c rpcclient.cpp  -fno-common -DPIC -o .libs/rpcclient.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT rpcclient.lo -MD -MP -MF .deps/rpcclient.Tpo -c rpcclient.cpp -o rpcclient.o >/dev/null 2>&1
+mv -f .deps/rpcclient.Tpo .deps/rpcclient.Plo
+/bin/sh ../../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I../../src  -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic  -g -O2  -MT rpcclientimpl.lo -MD -MP -MF .deps/rpcclientimpl.Tpo -c -o rpcclientimpl.lo rpcclientimpl.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT rpcclientimpl.lo -MD -MP -MF .deps/rpcclientimpl.Tpo -c rpcclientimpl.cpp  -fno-common -DPIC -o .libs/rpcclientimpl.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT rpcclientimpl.lo -MD -MP -MF .deps/rpcclientimpl.Tpo -c rpcclientimpl.cpp -o rpcclientimpl.o >/dev/null 2>&1
+mv -f .deps/rpcclientimpl.Tpo .deps/rpcclientimpl.Plo
+/bin/sh ../../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I../../src  -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic  -g -O2  -MT responder.lo -MD -MP -MF .deps/responder.Tpo -c -o responder.lo responder.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT responder.lo -MD -MP -MF .deps/responder.Tpo -c responder.cpp  -fno-common -DPIC -o .libs/responder.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT responder.lo -MD -MP -MF .deps/responder.Tpo -c responder.cpp -o responder.o >/dev/null 2>&1
+mv -f .deps/responder.Tpo .deps/responder.Plo
+/bin/sh ../../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I../../src  -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic  -g -O2  -MT rpcserver.lo -MD -MP -MF .deps/rpcserver.Tpo -c -o rpcserver.lo rpcserver.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT rpcserver.lo -MD -MP -MF .deps/rpcserver.Tpo -c rpcserver.cpp  -fno-common -DPIC -o .libs/rpcserver.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT rpcserver.lo -MD -MP -MF .deps/rpcserver.Tpo -c rpcserver.cpp -o rpcserver.o >/dev/null 2>&1
+mv -f .deps/rpcserver.Tpo .deps/rpcserver.Plo
+/bin/sh ../../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I../../src  -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic  -g -O2  -MT rpcserverimpl.lo -MD -MP -MF .deps/rpcserverimpl.Tpo -c -o rpcserverimpl.lo rpcserverimpl.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT rpcserverimpl.lo -MD -MP -MF .deps/rpcserverimpl.Tpo -c rpcserverimpl.cpp  -fno-common -DPIC -o .libs/rpcserverimpl.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT rpcserverimpl.lo -MD -MP -MF .deps/rpcserverimpl.Tpo -c rpcserverimpl.cpp -o rpcserverimpl.o >/dev/null 2>&1
+mv -f .deps/rpcserverimpl.Tpo .deps/rpcserverimpl.Plo
+/bin/sh ../../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I../../src  -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic  -g -O2  -MT scanner.lo -MD -MP -MF .deps/scanner.Tpo -c -o scanner.lo scanner.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT scanner.lo -MD -MP -MF .deps/scanner.Tpo -c scanner.cpp  -fno-common -DPIC -o .libs/scanner.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT scanner.lo -MD -MP -MF .deps/scanner.Tpo -c scanner.cpp -o scanner.o >/dev/null 2>&1
+mv -f .deps/scanner.Tpo .deps/scanner.Plo
+/bin/sh ../../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I../../src  -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic  -g -O2  -MT socket.lo -MD -MP -MF .deps/socket.Tpo -c -o socket.lo socket.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT socket.lo -MD -MP -MF .deps/socket.Tpo -c socket.cpp  -fno-common -DPIC -o .libs/socket.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT socket.lo -MD -MP -MF .deps/socket.Tpo -c socket.cpp -o socket.o >/dev/null 2>&1
+mv -f .deps/socket.Tpo .deps/socket.Plo
+/bin/sh ../../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I../../src  -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic  -g -O2  -MT worker.lo -MD -MP -MF .deps/worker.Tpo -c -o worker.lo worker.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT worker.lo -MD -MP -MF .deps/worker.Tpo -c worker.cpp  -fno-common -DPIC -o .libs/worker.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../src -I../../src -I../../include -I../../include -Wno-long-long -Wall -pedantic -g -O2 -MT worker.lo -MD -MP -MF .deps/worker.Tpo -c worker.cpp -o worker.o >/dev/null 2>&1
+mv -f .deps/worker.Tpo .deps/worker.Plo
+/bin/sh ../../libtool --tag=CXX   --mode=link g++  -g -O2  -version-info 9:0:0   -o libcxxtools-json.la -rpath /usr/local/tntnet/2.2rc3/lib httpclient.lo httpclientimpl.lo httpresponder.lo httpservice.lo rpcclient.lo rpcclientimpl.lo responder.lo rpcserver.lo rpcserverimpl.lo scanner.lo socket.lo worker.lo ../../src/libcxxtools.la ../../src/http/libcxxtools-http.la -lpthread
+libtool: link: g++ -dynamiclib -Wl,-undefined -Wl,dynamic_lookup -o .libs/libcxxtools-json.9.dylib  .libs/httpclient.o .libs/httpclientimpl.o .libs/httpresponder.o .libs/httpservice.o .libs/rpcclient.o .libs/rpcclientimpl.o .libs/responder.o .libs/rpcserver.o .libs/rpcserverimpl.o .libs/scanner.o .libs/socket.o .libs/worker.o   ../../src/.libs/libcxxtools.dylib ../../src/http/.libs/libcxxtools-http.dylib /usr/local/tntnet/2.2rc3/build/cxxtools-2.2rc4/src/.libs/libcxxtools.dylib -lpthread  -O2 -Wl,-dylib_file -Wl,/usr/local/tntnet/2.2rc3/lib/libcxxtools.9.dylib:/usr/local/tntnet/2.2rc3/build/cxxtools-2.2rc4/src/.libs/libcxxtools.dylib   -install_name  /usr/local/tntnet/2.2rc3/lib/libcxxtools-json.9.dylib -compatibility_version 10 -current_version 10.0 -Wl,-single_module
+libtool: link: (cd ".libs" && rm -f "libcxxtools-json.dylib" && ln -s "libcxxtools-json.9.dylib" "libcxxtools-json.dylib")
+libtool: link: ar cru .libs/libcxxtools-json.a  httpclient.o httpclientimpl.o httpresponder.o httpservice.o rpcclient.o rpcclientimpl.o responder.o rpcserver.o rpcserverimpl.o scanner.o socket.o worker.o
+libtool: link: ranlib .libs/libcxxtools-json.a
+libtool: link: ( cd ".libs" && rm -f "libcxxtools-json.la" && ln -s "../libcxxtools-json.la" "libcxxtools-json.la" )
+Making all in include
+make[1]: Nothing to be done for `all'.
+Making all in demo
+g++ -DHAVE_CONFIG_H -I. -I../src  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT arg.o -MD -MP -MF .deps/arg.Tpo -c -o arg.o arg.cpp
+mv -f .deps/arg.Tpo .deps/arg.Po
+/bin/sh ../libtool --tag=CXX   --mode=link g++  -g -O2    -o arg arg.o ../src/libcxxtools.la -lpthread
+libtool: link: g++ -g -O2 -o .libs/arg arg.o -Wl,-bind_at_load  ../src/.libs/libcxxtools.dylib -lpthread
+g++ -DHAVE_CONFIG_H -I. -I../src  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT arg-set.o -MD -MP -MF .deps/arg-set.Tpo -c -o arg-set.o arg-set.cpp
+mv -f .deps/arg-set.Tpo .deps/arg-set.Po
+/bin/sh ../libtool --tag=CXX   --mode=link g++  -g -O2    -o arg-set arg-set.o ../src/libcxxtools.la -lpthread
+libtool: link: g++ -g -O2 -o .libs/arg-set arg-set.o -Wl,-bind_at_load  ../src/.libs/libcxxtools.dylib -lpthread
+g++ -DHAVE_CONFIG_H -I. -I../src  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT cgi.o -MD -MP -MF .deps/cgi.Tpo -c -o cgi.o cgi.cpp
+mv -f .deps/cgi.Tpo .deps/cgi.Po
+/bin/sh ../libtool --tag=CXX   --mode=link g++  -g -O2    -o cgi cgi.o ../src/libcxxtools.la -lpthread
+libtool: link: g++ -g -O2 -o .libs/cgi cgi.o -Wl,-bind_at_load  ../src/.libs/libcxxtools.dylib -lpthread
+g++ -DHAVE_CONFIG_H -I. -I../src  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT dir.o -MD -MP -MF .deps/dir.Tpo -c -o dir.o dir.cpp
+mv -f .deps/dir.Tpo .deps/dir.Po
+/bin/sh ../libtool --tag=CXX   --mode=link g++  -g -O2    -o dir dir.o ../src/libcxxtools.la -lpthread
+libtool: link: g++ -g -O2 -o .libs/dir dir.o -Wl,-bind_at_load  ../src/.libs/libcxxtools.dylib -lpthread
+g++ -DHAVE_CONFIG_H -I. -I../src  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT dlloader.o -MD -MP -MF .deps/dlloader.Tpo -c -o dlloader.o dlloader.cpp
+dlloader.cpp: In function ‘int main(int, char**)’:
+dlloader.cpp:51: warning: ISO C++ forbids casting between pointer-to-function and pointer-to-object
+mv -f .deps/dlloader.Tpo .deps/dlloader.Po
+/bin/sh ../libtool --tag=CXX   --mode=link g++  -g -O2    -o dlloader dlloader.o ../src/libcxxtools.la -lpthread
+libtool: link: g++ -g -O2 -o .libs/dlloader dlloader.o -Wl,-bind_at_load  ../src/.libs/libcxxtools.dylib -lpthread
+g++ -DHAVE_CONFIG_H -I. -I../src  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT getini.o -MD -MP -MF .deps/getini.Tpo -c -o getini.o getini.cpp
+mv -f .deps/getini.Tpo .deps/getini.Po
+/bin/sh ../libtool --tag=CXX   --mode=link g++  -g -O2    -o getini getini.o ../src/libcxxtools.la -lpthread
+libtool: link: g++ -g -O2 -o .libs/getini getini.o -Wl,-bind_at_load  ../src/.libs/libcxxtools.dylib -lpthread
+g++ -DHAVE_CONFIG_H -I. -I../src  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT hd.o -MD -MP -MF .deps/hd.Tpo -c -o hd.o hd.cpp
+mv -f .deps/hd.Tpo .deps/hd.Po
+/bin/sh ../libtool --tag=CXX   --mode=link g++  -g -O2    -o hd hd.o ../src/libcxxtools.la -lpthread
+libtool: link: g++ -g -O2 -o .libs/hd hd.o -Wl,-bind_at_load  ../src/.libs/libcxxtools.dylib -lpthread
+g++ -DHAVE_CONFIG_H -I. -I../src  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT httprequest.o -MD -MP -MF .deps/httprequest.Tpo -c -o httprequest.o httprequest.cpp
+mv -f .deps/httprequest.Tpo .deps/httprequest.Po
+/bin/sh ../libtool --tag=CXX   --mode=link g++  -g -O2    -o httprequest httprequest.o ../src/libcxxtools.la ../src/http/libcxxtools-http.la -lpthread
+libtool: link: g++ -g -O2 -o .libs/httprequest httprequest.o -Wl,-bind_at_load  ../src/.libs/libcxxtools.dylib ../src/http/.libs/libcxxtools-http.dylib /usr/local/tntnet/2.2rc3/build/cxxtools-2.2rc4/src/.libs/libcxxtools.dylib -lpthread
+g++ -DHAVE_CONFIG_H -I. -I../src  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT httpserver.o -MD -MP -MF .deps/httpserver.Tpo -c -o httpserver.o httpserver.cpp
+mv -f .deps/httpserver.Tpo .deps/httpserver.Po
+/bin/sh ../libtool --tag=CXX   --mode=link g++  -g -O2    -o httpserver httpserver.o ../src/libcxxtools.la ../src/http/libcxxtools-http.la -lpthread
+libtool: link: g++ -g -O2 -o .libs/httpserver httpserver.o -Wl,-bind_at_load  ../src/.libs/libcxxtools.dylib ../src/http/.libs/libcxxtools-http.dylib /usr/local/tntnet/2.2rc3/build/cxxtools-2.2rc4/src/.libs/libcxxtools.dylib -lpthread
+g++ -DHAVE_CONFIG_H -I. -I../src  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT log.o -MD -MP -MF .deps/log.Tpo -c -o log.o log.cpp
+mv -f .deps/log.Tpo .deps/log.Po
+/bin/sh ../libtool --tag=CXX   --mode=link g++  -g -O2    -o log log.o ../src/libcxxtools.la -lpthread
+libtool: link: g++ -g -O2 -o .libs/log log.o -Wl,-bind_at_load  ../src/.libs/libcxxtools.dylib -lpthread
+g++ -DHAVE_CONFIG_H -I. -I../src  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT logbench.o -MD -MP -MF .deps/logbench.Tpo -c -o logbench.o logbench.cpp
+mv -f .deps/logbench.Tpo .deps/logbench.Po
+/bin/sh ../libtool --tag=CXX   --mode=link g++  -g -O2    -o logbench logbench.o ../src/libcxxtools.la -lpthread
+libtool: link: g++ -g -O2 -o .libs/logbench logbench.o -Wl,-bind_at_load  ../src/.libs/libcxxtools.dylib -lpthread
+g++ -DHAVE_CONFIG_H -I. -I../src  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT logsh.o -MD -MP -MF .deps/logsh.Tpo -c -o logsh.o logsh.cpp
+mv -f .deps/logsh.Tpo .deps/logsh.Po
+/bin/sh ../libtool --tag=CXX   --mode=link g++  -g -O2    -o logsh logsh.o ../src/libcxxtools.la -lpthread
+libtool: link: g++ -g -O2 -o .libs/logsh logsh.o -Wl,-bind_at_load  ../src/.libs/libcxxtools.dylib -lpthread
+g++ -DHAVE_CONFIG_H -I. -I../src  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT md5sum.o -MD -MP -MF .deps/md5sum.Tpo -c -o md5sum.o md5sum.cpp
+mv -f .deps/md5sum.Tpo .deps/md5sum.Po
+/bin/sh ../libtool --tag=CXX   --mode=link g++  -g -O2    -o md5sum md5sum.o ../src/libcxxtools.la -lpthread
+libtool: link: g++ -g -O2 -o .libs/md5sum md5sum.o -Wl,-bind_at_load  ../src/.libs/libcxxtools.dylib -lpthread
+g++ -DHAVE_CONFIG_H -I. -I../src  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT mime.o -MD -MP -MF .deps/mime.Tpo -c -o mime.o mime.cpp
+mv -f .deps/mime.Tpo .deps/mime.Po
+/bin/sh ../libtool --tag=CXX   --mode=link g++  -g -O2    -o mime mime.o ../src/libcxxtools.la -lpthread
+libtool: link: g++ -g -O2 -o .libs/mime mime.o -Wl,-bind_at_load  ../src/.libs/libcxxtools.dylib -lpthread
+g++ -DHAVE_CONFIG_H -I. -I../src  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT multifstream.o -MD -MP -MF .deps/multifstream.Tpo -c -o multifstream.o multifstream.cpp
+mv -f .deps/multifstream.Tpo .deps/multifstream.Po
+/bin/sh ../libtool --tag=CXX   --mode=link g++  -g -O2    -o multifstream multifstream.o ../src/libcxxtools.la -lpthread
+libtool: link: g++ -g -O2 -o .libs/multifstream multifstream.o -Wl,-bind_at_load  ../src/.libs/libcxxtools.dylib -lpthread
+g++ -DHAVE_CONFIG_H -I. -I../src  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT netcat.o -MD -MP -MF .deps/netcat.Tpo -c -o netcat.o netcat.cpp
+mv -f .deps/netcat.Tpo .deps/netcat.Po
+/bin/sh ../libtool --tag=CXX   --mode=link g++  -g -O2    -o netcat netcat.o ../src/libcxxtools.la -lpthread
+libtool: link: g++ -g -O2 -o .libs/netcat netcat.o -Wl,-bind_at_load  ../src/.libs/libcxxtools.dylib -lpthread
+g++ -DHAVE_CONFIG_H -I. -I../src  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT netio.o -MD -MP -MF .deps/netio.Tpo -c -o netio.o netio.cpp
+mv -f .deps/netio.Tpo .deps/netio.Po
+/bin/sh ../libtool --tag=CXX   --mode=link g++  -g -O2    -o netio netio.o ../src/libcxxtools.la -lpthread
+libtool: link: g++ -g -O2 -o .libs/netio netio.o -Wl,-bind_at_load  ../src/.libs/libcxxtools.dylib -lpthread
+g++ -DHAVE_CONFIG_H -I. -I../src  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT netmsg.o -MD -MP -MF .deps/netmsg.Tpo -c -o netmsg.o netmsg.cpp
+mv -f .deps/netmsg.Tpo .deps/netmsg.Po
+/bin/sh ../libtool --tag=CXX   --mode=link g++  -g -O2    -o netmsg netmsg.o ../src/libcxxtools.la -lpthread
+libtool: link: g++ -g -O2 -o .libs/netmsg netmsg.o -Wl,-bind_at_load  ../src/.libs/libcxxtools.dylib -lpthread
+g++ -DHAVE_CONFIG_H -I. -I../src  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT pipestream.o -MD -MP -MF .deps/pipestream.Tpo -c -o pipestream.o pipestream.cpp
+mv -f .deps/pipestream.Tpo .deps/pipestream.Po
+/bin/sh ../libtool --tag=CXX   --mode=link g++  -g -O2    -o pipestream pipestream.o ../src/libcxxtools.la -lpthread
+libtool: link: g++ -g -O2 -o .libs/pipestream pipestream.o -Wl,-bind_at_load  ../src/.libs/libcxxtools.dylib -lpthread
+g++ -DHAVE_CONFIG_H -I. -I../src  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT pool.o -MD -MP -MF .deps/pool.Tpo -c -o pool.o pool.cpp
+mv -f .deps/pool.Tpo .deps/pool.Po
+/bin/sh ../libtool --tag=CXX   --mode=link g++  -g -O2    -o pool pool.o ../src/libcxxtools.la -lpthread
+libtool: link: g++ -g -O2 -o .libs/pool pool.o -Wl,-bind_at_load  ../src/.libs/libcxxtools.dylib -lpthread
+g++ -DHAVE_CONFIG_H -I. -I../src  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT signals.o -MD -MP -MF .deps/signals.Tpo -c -o signals.o signals.cpp
+mv -f .deps/signals.Tpo .deps/signals.Po
+/bin/sh ../libtool --tag=CXX   --mode=link g++  -g -O2    -o signals signals.o ../src/libcxxtools.la -lpthread
+libtool: link: g++ -g -O2 -o .libs/signals signals.o -Wl,-bind_at_load  ../src/.libs/libcxxtools.dylib -lpthread
+g++ -DHAVE_CONFIG_H -I. -I../src  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT thread.o -MD -MP -MF .deps/thread.Tpo -c -o thread.o thread.cpp
+mv -f .deps/thread.Tpo .deps/thread.Po
+/bin/sh ../libtool --tag=CXX   --mode=link g++  -g -O2    -o thread thread.o ../src/libcxxtools.la -lpthread
+libtool: link: g++ -g -O2 -o .libs/thread thread.o -Wl,-bind_at_load  ../src/.libs/libcxxtools.dylib -lpthread
+g++ -DHAVE_CONFIG_H -I. -I../src  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT threadpool.o -MD -MP -MF .deps/threadpool.Tpo -c -o threadpool.o threadpool.cpp
+mv -f .deps/threadpool.Tpo .deps/threadpool.Po
+/bin/sh ../libtool --tag=CXX   --mode=link g++  -g -O2    -o threadpool threadpool.o ../src/libcxxtools.la -lpthread
+libtool: link: g++ -g -O2 -o .libs/threadpool threadpool.o -Wl,-bind_at_load  ../src/.libs/libcxxtools.dylib -lpthread
+g++ -DHAVE_CONFIG_H -I. -I../src  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT uuencode.o -MD -MP -MF .deps/uuencode.Tpo -c -o uuencode.o uuencode.cpp
+mv -f .deps/uuencode.Tpo .deps/uuencode.Po
+/bin/sh ../libtool --tag=CXX   --mode=link g++  -g -O2    -o uuencode uuencode.o ../src/libcxxtools.la -lpthread
+libtool: link: g++ -g -O2 -o .libs/uuencode uuencode.o -Wl,-bind_at_load  ../src/.libs/libcxxtools.dylib -lpthread
+g++ -DHAVE_CONFIG_H -I. -I../src  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT cxxlog.o -MD -MP -MF .deps/cxxlog.Tpo -c -o cxxlog.o cxxlog.cpp
+mv -f .deps/cxxlog.Tpo .deps/cxxlog.Po
+/bin/sh ../libtool --tag=CXX   --mode=link g++  -g -O2    -o cxxlog cxxlog.o ../src/libcxxtools.la -lpthread
+libtool: link: g++ -g -O2 -o .libs/cxxlog cxxlog.o -Wl,-bind_at_load  ../src/.libs/libcxxtools.dylib -lpthread
+g++ -DHAVE_CONFIG_H -I. -I../src  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT rpcserver.o -MD -MP -MF .deps/rpcserver.Tpo -c -o rpcserver.o rpcserver.cpp
+mv -f .deps/rpcserver.Tpo .deps/rpcserver.Po
+/bin/sh ../libtool --tag=CXX   --mode=link g++  -g -O2    -o rpcserver rpcserver.o ../src/libcxxtools.la ../src/xmlrpc/libcxxtools-xmlrpc.la ../src/libcxxtools.la ../src/http/libcxxtools-http.la ../src/bin/libcxxtools-bin.la ../src/libcxxtools.la ../src/http/libcxxtools-http.la ../src/json/libcxxtools-json.la -lpthread
+libtool: link: g++ -g -O2 -o .libs/rpcserver rpcserver.o -Wl,-bind_at_load  ../src/xmlrpc/.libs/libcxxtools-xmlrpc.dylib ../src/bin/.libs/libcxxtools-bin.dylib ../src/.libs/libcxxtools.dylib ../src/http/.libs/libcxxtools-http.dylib ../src/json/.libs/libcxxtools-json.dylib /usr/local/tntnet/2.2rc3/build/cxxtools-2.2rc4/src/http/.libs/libcxxtools-http.dylib /usr/local/tntnet/2.2rc3/build/cxxtools-2.2rc4/src/.libs/libcxxtools.dylib -lpthread
+g++ -DHAVE_CONFIG_H -I. -I../src  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT rpcechoclient.o -MD -MP -MF .deps/rpcechoclient.Tpo -c -o rpcechoclient.o rpcechoclient.cpp
+mv -f .deps/rpcechoclient.Tpo .deps/rpcechoclient.Po
+/bin/sh ../libtool --tag=CXX   --mode=link g++  -g -O2    -o rpcechoclient rpcechoclient.o ../src/libcxxtools.la ../src/xmlrpc/libcxxtools-xmlrpc.la ../src/libcxxtools.la ../src/http/libcxxtools-http.la ../src/bin/libcxxtools-bin.la ../src/libcxxtools.la ../src/http/libcxxtools-http.la ../src/json/libcxxtools-json.la -lpthread
+libtool: link: g++ -g -O2 -o .libs/rpcechoclient rpcechoclient.o -Wl,-bind_at_load  ../src/xmlrpc/.libs/libcxxtools-xmlrpc.dylib ../src/bin/.libs/libcxxtools-bin.dylib ../src/.libs/libcxxtools.dylib ../src/http/.libs/libcxxtools-http.dylib ../src/json/.libs/libcxxtools-json.dylib /usr/local/tntnet/2.2rc3/build/cxxtools-2.2rc4/src/http/.libs/libcxxtools-http.dylib /usr/local/tntnet/2.2rc3/build/cxxtools-2.2rc4/src/.libs/libcxxtools.dylib -lpthread
+g++ -DHAVE_CONFIG_H -I. -I../src  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT rpcaddclient.o -MD -MP -MF .deps/rpcaddclient.Tpo -c -o rpcaddclient.o rpcaddclient.cpp
+mv -f .deps/rpcaddclient.Tpo .deps/rpcaddclient.Po
+/bin/sh ../libtool --tag=CXX   --mode=link g++  -g -O2    -o rpcaddclient rpcaddclient.o ../src/libcxxtools.la ../src/xmlrpc/libcxxtools-xmlrpc.la ../src/libcxxtools.la ../src/http/libcxxtools-http.la ../src/bin/libcxxtools-bin.la ../src/libcxxtools.la ../src/http/libcxxtools-http.la ../src/json/libcxxtools-json.la -lpthread
+libtool: link: g++ -g -O2 -o .libs/rpcaddclient rpcaddclient.o -Wl,-bind_at_load  ../src/xmlrpc/.libs/libcxxtools-xmlrpc.dylib ../src/bin/.libs/libcxxtools-bin.dylib ../src/.libs/libcxxtools.dylib ../src/http/.libs/libcxxtools-http.dylib ../src/json/.libs/libcxxtools-json.dylib /usr/local/tntnet/2.2rc3/build/cxxtools-2.2rc4/src/http/.libs/libcxxtools-http.dylib /usr/local/tntnet/2.2rc3/build/cxxtools-2.2rc4/src/.libs/libcxxtools.dylib -lpthread
+g++ -DHAVE_CONFIG_H -I. -I../src  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT splitter.o -MD -MP -MF .deps/splitter.Tpo -c -o splitter.o splitter.cpp
+mv -f .deps/splitter.Tpo .deps/splitter.Po
+/bin/sh ../libtool --tag=CXX   --mode=link g++  -g -O2    -o splitter splitter.o ../src/libcxxtools.la -lpthread
+libtool: link: g++ -g -O2 -o .libs/splitter splitter.o -Wl,-bind_at_load  ../src/.libs/libcxxtools.dylib -lpthread
+g++ -DHAVE_CONFIG_H -I. -I../src  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT json.o -MD -MP -MF .deps/json.Tpo -c -o json.o json.cpp
+mv -f .deps/json.Tpo .deps/json.Po
+/bin/sh ../libtool --tag=CXX   --mode=link g++  -g -O2    -o json json.o ../src/libcxxtools.la ../src/http/libcxxtools-http.la -lpthread
+libtool: link: g++ -g -O2 -o .libs/json json.o -Wl,-bind_at_load  ../src/.libs/libcxxtools.dylib ../src/http/.libs/libcxxtools-http.dylib /usr/local/tntnet/2.2rc3/build/cxxtools-2.2rc4/src/.libs/libcxxtools.dylib -lpthread
+g++ -DHAVE_CONFIG_H -I. -I../src  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT regex.o -MD -MP -MF .deps/regex.Tpo -c -o regex.o regex.cpp
+mv -f .deps/regex.Tpo .deps/regex.Po
+/bin/sh ../libtool --tag=CXX   --mode=link g++  -g -O2    -o regex regex.o ../src/libcxxtools.la -lpthread
+libtool: link: g++ -g -O2 -o .libs/regex regex.o -Wl,-bind_at_load  ../src/.libs/libcxxtools.dylib -lpthread
+g++ -DHAVE_CONFIG_H -I. -I../src  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT execLs.o -MD -MP -MF .deps/execLs.Tpo -c -o execLs.o execLs.cpp
+mv -f .deps/execLs.Tpo .deps/execLs.Po
+/bin/sh ../libtool --tag=CXX   --mode=link g++  -g -O2    -o execLs execLs.o ../src/libcxxtools.la -lpthread
+libtool: link: g++ -g -O2 -o .libs/execLs execLs.o -Wl,-bind_at_load  ../src/.libs/libcxxtools.dylib -lpthread
+g++ -DHAVE_CONFIG_H -I. -I../src  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT rpcasyncaddclient.o -MD -MP -MF .deps/rpcasyncaddclient.Tpo -c -o rpcasyncaddclient.o rpcasyncaddclient.cpp
+mv -f .deps/rpcasyncaddclient.Tpo .deps/rpcasyncaddclient.Po
+/bin/sh ../libtool --tag=CXX   --mode=link g++  -g -O2    -o rpcasyncaddclient rpcasyncaddclient.o ../src/libcxxtools.la ../src/xmlrpc/libcxxtools-xmlrpc.la ../src/libcxxtools.la ../src/http/libcxxtools-http.la ../src/bin/libcxxtools-bin.la ../src/libcxxtools.la ../src/http/libcxxtools-http.la ../src/json/libcxxtools-json.la -lpthread
+libtool: link: g++ -g -O2 -o .libs/rpcasyncaddclient rpcasyncaddclient.o -Wl,-bind_at_load  ../src/xmlrpc/.libs/libcxxtools-xmlrpc.dylib ../src/bin/.libs/libcxxtools-bin.dylib ../src/.libs/libcxxtools.dylib ../src/http/.libs/libcxxtools-http.dylib ../src/json/.libs/libcxxtools-json.dylib /usr/local/tntnet/2.2rc3/build/cxxtools-2.2rc4/src/http/.libs/libcxxtools-http.dylib /usr/local/tntnet/2.2rc3/build/cxxtools-2.2rc4/src/.libs/libcxxtools.dylib -lpthread
+/bin/sh ../cxxtools-config --logxml cxxtools >log.xml
+Making all in test
+g++ -DHAVE_CONFIG_H -I. -I../src  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT arg-test.o -MD -MP -MF .deps/arg-test.Tpo -c -o arg-test.o arg-test.cpp
+mv -f .deps/arg-test.Tpo .deps/arg-test.Po
+g++ -DHAVE_CONFIG_H -I. -I../src  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT base64-test.o -MD -MP -MF .deps/base64-test.Tpo -c -o base64-test.o base64-test.cpp
+mv -f .deps/base64-test.Tpo .deps/base64-test.Po
+g++ -DHAVE_CONFIG_H -I. -I../src  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT binrpc-test.o -MD -MP -MF .deps/binrpc-test.Tpo -c -o binrpc-test.o binrpc-test.cpp
+mv -f .deps/binrpc-test.Tpo .deps/binrpc-test.Po
+g++ -DHAVE_CONFIG_H -I. -I../src  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT binserializer-test.o -MD -MP -MF .deps/binserializer-test.Tpo -c -o binserializer-test.o binserializer-test.cpp
+mv -f .deps/binserializer-test.Tpo .deps/binserializer-test.Po
+g++ -DHAVE_CONFIG_H -I. -I../src  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT cache-test.o -MD -MP -MF .deps/cache-test.Tpo -c -o cache-test.o cache-test.cpp
+mv -f .deps/cache-test.Tpo .deps/cache-test.Po
+g++ -DHAVE_CONFIG_H -I. -I../src  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT clock-test.o -MD -MP -MF .deps/clock-test.Tpo -c -o clock-test.o clock-test.cpp
+mv -f .deps/clock-test.Tpo .deps/clock-test.Po
+g++ -DHAVE_CONFIG_H -I. -I../src  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT csvdeserializer-test.o -MD -MP -MF .deps/csvdeserializer-test.Tpo -c -o csvdeserializer-test.o csvdeserializer-test.cpp
+mv -f .deps/csvdeserializer-test.Tpo .deps/csvdeserializer-test.Po
+g++ -DHAVE_CONFIG_H -I. -I../src  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT csvserializer-test.o -MD -MP -MF .deps/csvserializer-test.Tpo -c -o csvserializer-test.o csvserializer-test.cpp
+mv -f .deps/csvserializer-test.Tpo .deps/csvserializer-test.Po
+g++ -DHAVE_CONFIG_H -I. -I../src  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT convert-test.o -MD -MP -MF .deps/convert-test.Tpo -c -o convert-test.o convert-test.cpp
+mv -f .deps/convert-test.Tpo .deps/convert-test.Po
+g++ -DHAVE_CONFIG_H -I. -I../src  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT join-test.o -MD -MP -MF .deps/join-test.Tpo -c -o join-test.o join-test.cpp
+mv -f .deps/join-test.Tpo .deps/join-test.Po
+g++ -DHAVE_CONFIG_H -I. -I../src  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT json-test.o -MD -MP -MF .deps/json-test.Tpo -c -o json-test.o json-test.cpp
+mv -f .deps/json-test.Tpo .deps/json-test.Po
+g++ -DHAVE_CONFIG_H -I. -I../src  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT jsondeserializer-test.o -MD -MP -MF .deps/jsondeserializer-test.Tpo -c -o jsondeserializer-test.o jsondeserializer-test.cpp
+mv -f .deps/jsondeserializer-test.Tpo .deps/jsondeserializer-test.Po
+g++ -DHAVE_CONFIG_H -I. -I../src  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT jsonrpc-test.o -MD -MP -MF .deps/jsonrpc-test.Tpo -c -o jsonrpc-test.o jsonrpc-test.cpp
+mv -f .deps/jsonrpc-test.Tpo .deps/jsonrpc-test.Po
+g++ -DHAVE_CONFIG_H -I. -I../src  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT jsonrpchttp-test.o -MD -MP -MF .deps/jsonrpchttp-test.Tpo -c -o jsonrpchttp-test.o jsonrpchttp-test.cpp
+mv -f .deps/jsonrpchttp-test.Tpo .deps/jsonrpchttp-test.Po
+g++ -DHAVE_CONFIG_H -I. -I../src  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT jsonserializer-test.o -MD -MP -MF .deps/jsonserializer-test.Tpo -c -o jsonserializer-test.o jsonserializer-test.cpp
+mv -f .deps/jsonserializer-test.Tpo .deps/jsonserializer-test.Po
+g++ -DHAVE_CONFIG_H -I. -I../src  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT lrucache-test.o -MD -MP -MF .deps/lrucache-test.Tpo -c -o lrucache-test.o lrucache-test.cpp
+mv -f .deps/lrucache-test.Tpo .deps/lrucache-test.Po
+g++ -DHAVE_CONFIG_H -I. -I../src  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT md5-test.o -MD -MP -MF .deps/md5-test.Tpo -c -o md5-test.o md5-test.cpp
+mv -f .deps/md5-test.Tpo .deps/md5-test.Po
+g++ -DHAVE_CONFIG_H -I. -I../src  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT pool-test.o -MD -MP -MF .deps/pool-test.Tpo -c -o pool-test.o pool-test.cpp
+mv -f .deps/pool-test.Tpo .deps/pool-test.Po
+g++ -DHAVE_CONFIG_H -I. -I../src  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT properties-test.o -MD -MP -MF .deps/properties-test.Tpo -c -o properties-test.o properties-test.cpp
+mv -f .deps/properties-test.Tpo .deps/properties-test.Po
+g++ -DHAVE_CONFIG_H -I. -I../src  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT query_params-test.o -MD -MP -MF .deps/query_params-test.Tpo -c -o query_params-test.o query_params-test.cpp
+mv -f .deps/query_params-test.Tpo .deps/query_params-test.Po
+g++ -DHAVE_CONFIG_H -I. -I../src  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT regex-test.o -MD -MP -MF .deps/regex-test.Tpo -c -o regex-test.o regex-test.cpp
+mv -f .deps/regex-test.Tpo .deps/regex-test.Po
+g++ -DHAVE_CONFIG_H -I. -I../src  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT serializationinfo-test.o -MD -MP -MF .deps/serializationinfo-test.Tpo -c -o serializationinfo-test.o serializationinfo-test.cpp
+mv -f .deps/serializationinfo-test.Tpo .deps/serializationinfo-test.Po
+g++ -DHAVE_CONFIG_H -I. -I../src  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT smartptr-test.o -MD -MP -MF .deps/smartptr-test.Tpo -c -o smartptr-test.o smartptr-test.cpp
+mv -f .deps/smartptr-test.Tpo .deps/smartptr-test.Po
+g++ -DHAVE_CONFIG_H -I. -I../src  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT split-test.o -MD -MP -MF .deps/split-test.Tpo -c -o split-test.o split-test.cpp
+mv -f .deps/split-test.Tpo .deps/split-test.Po
+g++ -DHAVE_CONFIG_H -I. -I../src  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT string-test.o -MD -MP -MF .deps/string-test.Tpo -c -o string-test.o string-test.cpp
+mv -f .deps/string-test.Tpo .deps/string-test.Po
+g++ -DHAVE_CONFIG_H -I. -I../src  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT test-main.o -MD -MP -MF .deps/test-main.Tpo -c -o test-main.o test-main.cpp
+mv -f .deps/test-main.Tpo .deps/test-main.Po
+g++ -DHAVE_CONFIG_H -I. -I../src  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT trim-test.o -MD -MP -MF .deps/trim-test.Tpo -c -o trim-test.o trim-test.cpp
+mv -f .deps/trim-test.Tpo .deps/trim-test.Po
+g++ -DHAVE_CONFIG_H -I. -I../src  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT uri-test.o -MD -MP -MF .deps/uri-test.Tpo -c -o uri-test.o uri-test.cpp
+mv -f .deps/uri-test.Tpo .deps/uri-test.Po
+g++ -DHAVE_CONFIG_H -I. -I../src  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT xmlreader-test.o -MD -MP -MF .deps/xmlreader-test.Tpo -c -o xmlreader-test.o xmlreader-test.cpp
+mv -f .deps/xmlreader-test.Tpo .deps/xmlreader-test.Po
+g++ -DHAVE_CONFIG_H -I. -I../src  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT xmlrpc-test.o -MD -MP -MF .deps/xmlrpc-test.Tpo -c -o xmlrpc-test.o xmlrpc-test.cpp
+mv -f .deps/xmlrpc-test.Tpo .deps/xmlrpc-test.Po
+g++ -DHAVE_CONFIG_H -I. -I../src  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT xmlserializer-test.o -MD -MP -MF .deps/xmlserializer-test.Tpo -c -o xmlserializer-test.o xmlserializer-test.cpp
+mv -f .deps/xmlserializer-test.Tpo .deps/xmlserializer-test.Po
+/bin/sh ../libtool --tag=CXX   --mode=link g++  -g -O2    -o alltests arg-test.o base64-test.o binrpc-test.o binserializer-test.o cache-test.o clock-test.o csvdeserializer-test.o csvserializer-test.o convert-test.o join-test.o json-test.o jsondeserializer-test.o jsonrpc-test.o jsonrpchttp-test.o jsonserializer-test.o lrucache-test.o md5-test.o pool-test.o properties-test.o query_params-test.o regex-test.o serializationinfo-test.o smartptr-test.o split-test.o string-test.o test-main.o trim-test.o uri-test.o xmlreader-test.o xmlrpc-test.o xmlserializer-test.o  ../src/libcxxtools.la ../src/bin/libcxxtools-bin.la ../src/http/libcxxtools-http.la ../src/json/libcxxtools-json.la ../src/unit/libcxxtools-unit.la ../src/xmlrpc/libcxxtools-xmlrpc.la -lpthread
+libtool: link: g++ -g -O2 -o .libs/alltests arg-test.o base64-test.o binrpc-test.o binserializer-test.o cache-test.o clock-test.o csvdeserializer-test.o csvserializer-test.o convert-test.o join-test.o json-test.o jsondeserializer-test.o jsonrpc-test.o jsonrpchttp-test.o jsonserializer-test.o lrucache-test.o md5-test.o pool-test.o properties-test.o query_params-test.o regex-test.o serializationinfo-test.o smartptr-test.o split-test.o string-test.o test-main.o trim-test.o uri-test.o xmlreader-test.o xmlrpc-test.o xmlserializer-test.o -Wl,-bind_at_load  ../src/.libs/libcxxtools.dylib ../src/bin/.libs/libcxxtools-bin.dylib ../src/http/.libs/libcxxtools-http.dylib ../src/json/.libs/libcxxtools-json.dylib ../src/unit/.libs/libcxxtools-unit.dylib ../src/xmlrpc/.libs/libcxxtools-xmlrpc.dylib /usr/local/tntnet/2.2rc3/build/cxxtools-2.2rc4/src/http/.libs/libcxxtools-http.dylib /usr/local/tntnet/2.2rc3/build/cxxtools-2.2rc4/src/.libs/libcxxtools.dylib -lpthread
+g++ -DHAVE_CONFIG_H -I. -I../src  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT serializer-bench.o -MD -MP -MF .deps/serializer-bench.Tpo -c -o serializer-bench.o serializer-bench.cpp
+mv -f .deps/serializer-bench.Tpo .deps/serializer-bench.Po
+/bin/sh ../libtool --tag=CXX   --mode=link g++  -g -O2    -o serializer-bench serializer-bench.o ../src/libcxxtools.la ../src/bin/libcxxtools-bin.la -lpthread
+libtool: link: g++ -g -O2 -o .libs/serializer-bench serializer-bench.o -Wl,-bind_at_load  ../src/.libs/libcxxtools.dylib ../src/bin/.libs/libcxxtools-bin.dylib /usr/local/tntnet/2.2rc3/build/cxxtools-2.2rc4/src/.libs/libcxxtools.dylib -lpthread
+g++ -DHAVE_CONFIG_H -I. -I../src  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT rpcbenchclient.o -MD -MP -MF .deps/rpcbenchclient.Tpo -c -o rpcbenchclient.o rpcbenchclient.cpp
+mv -f .deps/rpcbenchclient.Tpo .deps/rpcbenchclient.Po
+/bin/sh ../libtool --tag=CXX   --mode=link g++  -g -O2    -o rpcbenchclient rpcbenchclient.o ../src/libcxxtools.la ../src/http/libcxxtools-http.la ../src/xmlrpc/libcxxtools-xmlrpc.la ../src/bin/libcxxtools-bin.la ../src/json/libcxxtools-json.la -lpthread
+libtool: link: g++ -g -O2 -o .libs/rpcbenchclient rpcbenchclient.o -Wl,-bind_at_load  ../src/.libs/libcxxtools.dylib ../src/http/.libs/libcxxtools-http.dylib ../src/xmlrpc/.libs/libcxxtools-xmlrpc.dylib ../src/bin/.libs/libcxxtools-bin.dylib ../src/json/.libs/libcxxtools-json.dylib /usr/local/tntnet/2.2rc3/build/cxxtools-2.2rc4/src/http/.libs/libcxxtools-http.dylib /usr/local/tntnet/2.2rc3/build/cxxtools-2.2rc4/src/.libs/libcxxtools.dylib -lpthread
+g++ -DHAVE_CONFIG_H -I. -I../src  -I../src -I../include -I../include -Wno-long-long -Wall -pedantic  -g -O2  -MT rpcbenchserver.o -MD -MP -MF .deps/rpcbenchserver.Tpo -c -o rpcbenchserver.o rpcbenchserver.cpp
+mv -f .deps/rpcbenchserver.Tpo .deps/rpcbenchserver.Po
+/bin/sh ../libtool --tag=CXX   --mode=link g++  -g -O2    -o rpcbenchserver rpcbenchserver.o ../src/libcxxtools.la ../src/http/libcxxtools-http.la ../src/xmlrpc/libcxxtools-xmlrpc.la ../src/bin/libcxxtools-bin.la ../src/json/libcxxtools-json.la -lpthread
+libtool: link: g++ -g -O2 -o .libs/rpcbenchserver rpcbenchserver.o -Wl,-bind_at_load  ../src/.libs/libcxxtools.dylib ../src/http/.libs/libcxxtools-http.dylib ../src/xmlrpc/.libs/libcxxtools-xmlrpc.dylib ../src/bin/.libs/libcxxtools-bin.dylib ../src/json/.libs/libcxxtools-json.dylib /usr/local/tntnet/2.2rc3/build/cxxtools-2.2rc4/src/http/.libs/libcxxtools-http.dylib /usr/local/tntnet/2.2rc3/build/cxxtools-2.2rc4/src/.libs/libcxxtools.dylib -lpthread
+make[1]: Nothing to be done for `all-am'.

@@ -1,0 +1,85 @@
+// Copyright (C) 2010, Guy Barrand. All rights reserved.
+// See the file inlib.license for terms.
+
+#ifndef inlib_cmd_session
+#define inlib_cmd_session
+
+#include "base_cmd"
+
+#include "../forit"
+#include "../args"
+#include "../sys/dir"
+#include "../sargs"
+#include "../sep"
+
+#include <map>
+
+namespace inlib {
+namespace cmd {
+
+INLIB_GLOBAL_STRING(done)
+INLIB_GLOBAL_STRING(failed)
+
+class session {
+  INLIB_SCLASS(inlib::cmd::session)
+public:
+  session(const args& a_args):m_args(a_args),m_verbose(false),m_can_shutdown(false){
+#ifdef INLIB_MEM
+    mem::increment(s_class().c_str());
+#endif
+    m_verbose = a_args.is_arg(s_arg_verbose());
+    m_can_shutdown = a_args.is_arg(s_arg_can_shutdown());
+    if(m_verbose) ::printf("inlib::cmd::session::session() : %lu\n",(unsigned long)this);
+    dir::home(m_home);
+/*
+    if(a_doc.size() && m_home.size()) {
+      m_home += sep();
+      m_home += "Documents";
+      m_home += sep();
+      m_home += a_doc;
+    }
+*/
+    m_pwd = m_home;
+  }
+  virtual ~session(){
+    inlib_mforit(std::string,base_cmd*,m_cmds,it){delete (*it).second;}
+    m_cmds.clear();
+    if(m_verbose) ::printf("inlib::cmd::session::~session() : %lu\n",(unsigned long)this);
+#ifdef INLIB_MEM
+    mem::decrement(s_class().c_str());
+#endif
+  }
+private:
+  session(const session&){}
+  session& operator=(const session&){return *this;}
+public:
+  void add_cmd(const std::string& a_name,base_cmd* a_cmd) {m_cmds[a_name] = a_cmd;}
+  base_cmd* find_cmd(const std::string& a_name) const {
+    std::map<std::string,base_cmd*>::const_iterator it = m_cmds.find(a_name);
+    if(it==m_cmds.end()) return 0;
+    return (*it).second;    
+  }
+  void reply_failed(std::ostream& a_sout,const std::string& a_msg) {
+    a_sout << s_failed() << " : " << a_msg;
+    if(m_verbose) ::printf("inlib::cmd::session : failed : %s\n",a_msg.c_str());
+  }
+  bool verbose() const {return m_verbose;}
+  void set_verbose(bool a_value) {m_verbose = a_value;}
+  bool can_shutdown() const {return m_can_shutdown;}
+  const std::string& home_dir() const {return m_home;}
+  const std::string& pwd() const {return m_pwd;}
+  void set_pwd(const std::string& a_value) {m_pwd = a_value;}
+protected:
+  args m_args;
+  bool m_verbose;
+  bool m_can_shutdown;
+  std::string m_home;
+  std::string m_pwd;
+  std::map<std::string,base_cmd*> m_cmds;
+};
+
+}}
+
+//inlib_build_use kernel
+
+#endif

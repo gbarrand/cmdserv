@@ -1,8 +1,15 @@
 
- To build :
-   cd ./inexlib/exlib/examples/cpp
-   ./build -v cmdserv.cpp
-   ./build term2serv.cpp
+  To build :
+          UNIX> cd ./inexlib/exlib/examples/cpp
+ [macOS,Linux]> ./build -v cmdserv.cpp      # -v to see what is compiled. -x to have a full verbosity.
+          UNIX> ./build term2serv.cpp
+
+ (here UNIX is for Linux, macOS, Windows-10/cygwin, but cmdserv had not been ported on Windows-10/cygwin)
+
+  If the GNU parallel application is known from your prompt, you can use the "-parallel"
+ option so that C and C++ file compilations are distributed on your cores. This feature
+ had been tested with success on macOS with a MacPorts installation of the GNU parallel program
+ and on centos7 by using the GNU distribution. It clearly boosts the build of the ourex externals.
 
  To run :
    ./bin_[gnu,clang]/cmdserv -verbose

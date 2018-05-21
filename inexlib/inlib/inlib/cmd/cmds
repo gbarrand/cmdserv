@@ -1,0 +1,281 @@
+// Copyright (C) 2010, Guy Barrand. All rights reserved.
+// See the file inlib.license for terms.
+
+#ifndef inlib_cmd_cmds
+#define inlib_cmd_cmds
+
+#include "session"
+
+#include "../file"
+#include "../sep"
+#include "../num2s"
+
+#include <fstream>
+
+namespace inlib {
+namespace cmd {
+
+class pwd_cmd : public base_cmd {
+  typedef base_cmd parent;
+public:
+  virtual void exec(session& a_session,const std::vector<std::string>&,std::ostream& a_sout,std::ostream&) {
+    a_sout << a_session.pwd();
+  }
+public:
+  pwd_cmd():parent(){}
+  virtual ~pwd_cmd(){}
+public:
+  pwd_cmd(const pwd_cmd& a_from):parent(a_from){}
+  pwd_cmd& operator=(const pwd_cmd& a_from){
+    parent::operator=(a_from);
+    return *this;
+  }
+};
+
+class ls_cmd : public base_cmd {
+  typedef base_cmd parent;
+public:
+  virtual void exec(session& a_session,const std::vector<std::string>& a_args,std::ostream& a_sout,std::ostream&) {
+    std::string where = a_args.empty()?a_session.pwd():a_args[0];
+    std::vector<std::string> ls;
+    if(!dir::entries(where,ls,false)) {
+      a_session.reply_failed(a_sout,"ls_cmd : get directory entries failed.");
+      return;
+    }
+    std::string stmp;
+    if(!nums2s<std::string>(ls,stmp)) {}
+    a_sout << stmp;
+    if(a_session.verbose()) ::printf("cmdserv : ls_cmd : \"%s\"\n",stmp.c_str());
+  }
+public:
+  ls_cmd():parent(){}
+  virtual ~ls_cmd(){}
+public:
+  ls_cmd(const ls_cmd& a_from):parent(a_from){}
+  ls_cmd& operator=(const ls_cmd& a_from){
+    parent::operator=(a_from);
+    return *this;
+  }
+};
+
+class lsd_cmd : public base_cmd {
+  typedef base_cmd parent;
+public:
+  virtual void exec(session& a_session,const std::vector<std::string>& a_args,std::ostream& a_sout,std::ostream&) {
+    std::string where = a_args.empty()?a_session.pwd():a_args[0];
+    std::vector<std::string> ls;
+    if(!dir::dirs(where,ls,false)) {
+      a_session.reply_failed(a_sout,"lsd_cmd : get directory entries failed.");
+      return;
+    }
+    std::string stmp;
+    if(!nums2s<std::string>(ls,stmp)) {}
+    a_sout << stmp;
+    if(a_session.verbose()) ::printf("cmdserv : lsd_cmd : \"%s\"\n",stmp.c_str());
+  }
+public:
+  lsd_cmd():parent(){}
+  virtual ~lsd_cmd(){}
+public:
+  lsd_cmd(const lsd_cmd& a_from):parent(a_from){}
+  lsd_cmd& operator=(const lsd_cmd& a_from){
+    parent::operator=(a_from);
+    return *this;
+  }
+};
+
+
+class lsf_cmd : public base_cmd {
+  typedef base_cmd parent;
+public:
+  virtual void exec(session& a_session,const std::vector<std::string>& a_args,std::ostream& a_sout,std::ostream&) {
+    std::string where = a_args.empty()?a_session.pwd():a_args[0];
+    std::vector<std::string> ls;
+    if(!dir::files(where,ls,false)) {
+      a_session.reply_failed(a_sout,"lsf_cmd : get directory entries failed.");
+      return;
+    }
+    std::string stmp;
+    if(!nums2s<std::string>(ls,stmp)) {}
+    a_sout << stmp;
+    if(a_session.verbose()) ::printf("cmdserv : lsf_cmd : \"%s\"\n",stmp.c_str());
+  }
+public:
+  lsf_cmd():parent(){}
+  virtual ~lsf_cmd(){}
+public:
+  lsf_cmd(const lsf_cmd& a_from):parent(a_from){}
+  lsf_cmd& operator=(const lsf_cmd& a_from){
+    parent::operator=(a_from);
+    return *this;
+  }
+};
+
+class size_cmd : public base_cmd {
+  typedef base_cmd parent;
+public:
+  virtual void exec(session& a_session,
+                    const std::vector<std::string>& a_args,
+                    std::ostream& a_sout,std::ostream& a_out) {
+    if(a_args.size()!=1) {
+      a_session.reply_failed(a_sout,"size_cmd : one argument expected.");
+      return;
+    }    
+    const std::string& arg0 = a_args[0];
+    std::string path;
+    if(is_absolute_path(arg0)) {
+      path = arg0;
+    } else {
+      path = a_session.pwd()+sep()+arg0;
+    }
+    if(!file::exists(path)) {
+      a_session.reply_failed(a_sout,"size_cmd : none existing file "+path);
+      return;
+    } 
+    long sz;
+    if(!file::size(path,sz)) {
+      a_session.reply_failed(a_sout,"size_cmd : get file size failed.");
+      return;
+    }
+    a_out << (uint64)sz;
+    if(a_session.verbose()) ::printf("cmdserv : size_cmd : \"%s\" %lu ok.\n",path.c_str(),sz);
+  }
+public:
+  size_cmd():parent(){}
+  virtual ~size_cmd(){}
+public:
+  size_cmd(const size_cmd& a_from):parent(a_from){}
+  size_cmd& operator=(const size_cmd& a_from){
+    parent::operator=(a_from);
+    return *this;
+  }
+};
+
+class cd_cmd : public base_cmd {
+  typedef base_cmd parent;
+public:
+  virtual void exec(session& a_session,
+                    const std::vector<std::string>& a_args,
+                    std::ostream& a_sout,std::ostream&) {
+    if(a_args.empty()) {
+      a_session.set_pwd(a_session.home_dir());
+      a_sout << s_done();
+      return;
+    }
+    if(a_args.size()!=1) {
+      a_session.reply_failed(a_sout,"cd_cmd : one argument expected.");
+      return;
+    }    
+
+    std::string new_dir;
+    if(a_args.empty()) {
+      new_dir = a_session.home_dir();
+    } else {
+      const std::string& arg0 = a_args[0];
+      if(is_absolute_path(arg0)) {
+        new_dir = arg0;
+      } else {
+        new_dir = a_session.pwd();
+        new_dir += sep();      
+        new_dir += arg0;
+      }
+    }
+    bool is;
+    dir::is_a(new_dir,is);
+    if(!is) {
+      a_session.reply_failed(a_sout,"cd_cmd : unknown directory.");
+      return;
+    }
+    a_session.set_pwd(new_dir);
+    a_sout << s_done();
+  }
+public:
+  cd_cmd():parent(){}
+  virtual ~cd_cmd(){}
+public:
+  cd_cmd(const cd_cmd& a_from):parent(a_from){}
+  cd_cmd& operator=(const cd_cmd& a_from){
+    parent::operator=(a_from);
+    return *this;
+  }
+};
+
+class get_cmd : public cmd::base_cmd {
+  typedef cmd::base_cmd parent;
+public:
+  virtual void exec(cmd::session& a_session,
+                    const std::vector<std::string>& a_args,
+                    std::ostream& a_sout,std::ostream& a_out) {
+    if(a_args.size()!=1) {
+      a_session.reply_failed(a_sout,"get_cmd : one argument expected.");
+      return;
+    }    
+    const std::string& arg0 = a_args[0];
+    std::string path;
+    if(is_absolute_path(arg0)) {
+      path = arg0;
+    } else {
+      path = a_session.pwd()+sep()+arg0;
+    }
+    if(!file::exists(path)) {
+      a_session.reply_failed(a_sout,"get_cmd : none existing file "+path);
+      return;
+    } 
+    std::ifstream ifs(path.c_str());
+    if(!ifs.is_open()) {
+      a_session.reply_failed(a_sout,"get_cmd : can't open file "+path);
+      return;
+    } 
+    a_out << ifs.rdbuf();
+    if(a_session.verbose()) ::printf("get_cmd : \"%s\" ok.\n",path.c_str());
+  }
+public:
+  get_cmd():parent(){}
+  virtual ~get_cmd(){}
+public:
+  get_cmd(const get_cmd& a_from):parent(a_from){}
+  get_cmd& operator=(const get_cmd& a_from){
+    parent::operator=(a_from);
+    return *this;
+  }
+};
+
+class get_from_home_cmd : public base_cmd {
+  typedef base_cmd parent;
+public:
+  virtual void exec(session& a_session,
+                    const std::vector<std::string>& a_args,
+                    std::ostream& a_sout,std::ostream& a_out) {
+    if(a_args.size()!=1) {
+      a_session.reply_failed(a_sout,"get_from_home_cmd : one argument expected.");
+      return;
+    }    
+    std::string path = a_session.home_dir()+a_args[0];
+    if(!file::exists(path)) {
+      a_session.reply_failed(a_sout,"get_from_home_cmd : none existing file "+path);
+      return;
+    } 
+    std::ifstream ifs(path.c_str());
+    if(!ifs.is_open()) {
+      a_session.reply_failed(a_sout,"get_from_home_cmd : can't open file "+path);
+      return;
+    } 
+    a_out << ifs.rdbuf();
+    if(a_session.verbose()) ::printf("get_from_home_cmd : \"%s\" ok.\n",path.c_str());
+  }
+public:
+  get_from_home_cmd():parent(){}
+  virtual ~get_from_home_cmd(){}
+public:
+  get_from_home_cmd(const get_from_home_cmd& a_from):parent(a_from){}
+  get_from_home_cmd& operator=(const get_from_home_cmd& a_from){
+    parent::operator=(a_from);
+    return *this;
+  }
+};
+
+}}
+
+//inlib_build_use kernel
+
+#endif
